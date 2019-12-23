@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSTButton'
-  s.version          = '0.1.12231543'
+  s.version          = '0.1.12231611'
   s.summary          = 'A short description of LSTButton.'
 
 # This description is used to generate tags and improve search results.
