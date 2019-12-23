@@ -167,7 +167,7 @@ NSString const *badgeValueKey            = @"badgeValueKey";
 }
 
 - (void)badgeInit{
-    // 初始化，设定默认值
+    //  初始化，设定默认值
     if (self.badgeBGColor == nil) {
         self.badgeBGColor   = [UIColor redColor];
     }
