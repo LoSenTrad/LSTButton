@@ -1,0 +1,6 @@
+framework module LSTButton {
+  umbrella header "LSTButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

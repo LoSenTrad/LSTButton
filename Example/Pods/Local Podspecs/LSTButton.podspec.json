@@ -1,0 +1,34 @@
+{
+  "name": "LSTButton",
+  "version": "0.1.0",
+  "summary": "A short description of LSTButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/490790096@qq.com/LSTButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "490790096@qq.com": "LoSenTrad@163.com"
+  },
+  "source": {
+    "git": "https://github.com/490790096@qq.com/LSTButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Code",
+  "dependencies": {
+    "LSTCategory": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Code",
+      "source_files": "LSTButton/Classes/Code/**/*",
+      "frameworks": "UIKit"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSTButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1.12231543'
   s.summary          = 'A short description of LSTButton.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LSTButton/Classes/**/*'
+#  s.source_files = 'LSTButton/Classes/**/*'
+  
+  s.default_subspec = 'Code'
+  
+  s.subspec 'Code' do |code|
+      code.source_files = 'LSTButton/Classes/Code/**/*'
+      #core.public_header_files = 'ZFPlayer/Classes/Core/**/*.h'
+      code.frameworks = 'UIKit'
+  end
   
   # s.resource_bundles = {
   #   'LSTButton' => ['LSTButton/Assets/*.png']
@@ -38,5 +46,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'LSTCategory'
 end
