@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mRm-tu-rcX">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LSTButton-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="LSTViewController" sceneMemberID="viewController">
@@ -17,15 +15,116 @@
                         <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48r-sO-WZ8">
+                                <rect key="frame" x="10" y="132" width="355" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Apm-Gd-Dsu"/>
+                                </constraints>
+                                <state key="normal" title="图文分布(上左下右)"/>
+                                <connections>
+                                    <action selector="imageTextLayout:" destination="whP-gf-Uak" eventType="touchUpInside" id="2SL-UZ-juA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjQ-67-q1t">
+                                <rect key="frame" x="10" y="191" width="355" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Dc5-24-33q"/>
+                                </constraints>
+                                <state key="normal" title="小红点"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-Ka-EoO">
+                                <rect key="frame" x="10" y="250" width="355" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="LsG-Oz-Uxj"/>
+                                </constraints>
+                                <state key="normal" title="点击动画"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkg-dM-3v6">
+                                <rect key="frame" x="10" y="309" width="355" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qfc-x0-MYX"/>
+                                </constraints>
+                                <state key="normal" title="加载动画"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jG-9J-tuF">
+                                <rect key="frame" x="10" y="368" width="355" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="CUU-jY-mqi"/>
+                                </constraints>
+                                <state key="normal" title="事件处理"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWL-SL-hSv">
+                                <rect key="frame" x="10" y="427" width="355" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Xnj-bV-LFA"/>
+                                </constraints>
+                                <state key="normal" title="其他按钮类型(倒计时,加减号)"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LSTButon是一款自定义view控件,致力于摆脱iOS UIButton不方便使用; 快速应用于项目,提高开发效率." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDg-py-FLb">
+                                <rect key="frame" x="19" y="572" width="346" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8jG-9J-tuF" firstAttribute="top" secondItem="pkg-dM-3v6" secondAttribute="bottom" constant="15" id="7F6-6r-3Cf"/>
+                            <constraint firstItem="OjQ-67-q1t" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="Ff5-QY-hns"/>
+                            <constraint firstItem="OjQ-67-q1t" firstAttribute="top" secondItem="48r-sO-WZ8" secondAttribute="bottom" constant="15" id="H1T-Lf-nrN"/>
+                            <constraint firstItem="mDg-py-FLb" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="19" id="IcS-2e-5ck"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="mDg-py-FLb" secondAttribute="bottom" constant="34" id="L7T-Jg-qjT"/>
+                            <constraint firstItem="dMc-Ka-EoO" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="M0o-z0-OB9"/>
+                            <constraint firstAttribute="trailing" secondItem="OjQ-67-q1t" secondAttribute="trailing" constant="10" id="MRJ-c7-tpn"/>
+                            <constraint firstItem="JWL-SL-hSv" firstAttribute="top" secondItem="8jG-9J-tuF" secondAttribute="bottom" constant="15" id="T3V-Zi-wHm"/>
+                            <constraint firstAttribute="trailing" secondItem="mDg-py-FLb" secondAttribute="trailing" constant="10" id="V6F-c6-0y1"/>
+                            <constraint firstItem="pkg-dM-3v6" firstAttribute="top" secondItem="dMc-Ka-EoO" secondAttribute="bottom" constant="15" id="Yuz-mi-iYQ"/>
+                            <constraint firstAttribute="trailing" secondItem="48r-sO-WZ8" secondAttribute="trailing" constant="10" id="aL6-FM-JQe"/>
+                            <constraint firstItem="pkg-dM-3v6" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="cgs-yq-j8P"/>
+                            <constraint firstItem="48r-sO-WZ8" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="fN5-bQ-Seq"/>
+                            <constraint firstItem="48r-sO-WZ8" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="88" id="hFn-sT-Glj"/>
+                            <constraint firstAttribute="trailing" secondItem="dMc-Ka-EoO" secondAttribute="trailing" constant="10" id="hJ2-l4-OfV"/>
+                            <constraint firstItem="8jG-9J-tuF" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="hhK-16-m0u"/>
+                            <constraint firstItem="dMc-Ka-EoO" firstAttribute="top" secondItem="OjQ-67-q1t" secondAttribute="bottom" constant="15" id="lIc-Pe-Sl3"/>
+                            <constraint firstItem="JWL-SL-hSv" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="lbb-iq-JhB"/>
+                            <constraint firstAttribute="trailing" secondItem="8jG-9J-tuF" secondAttribute="trailing" constant="10" id="syt-rm-htp"/>
+                            <constraint firstAttribute="trailing" secondItem="JWL-SL-hSv" secondAttribute="trailing" constant="10" id="wpZ-00-c7k"/>
+                            <constraint firstAttribute="trailing" secondItem="pkg-dM-3v6" secondAttribute="trailing" constant="10" id="y0R-CA-H9o"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="LSTButton" id="tN1-2e-hde"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="480.80000000000001" y="-63.418290854572717"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mY7-si-bSx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mRm-tu-rcX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Bn-pe-noe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="ZHZ-N2-0oF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Drd-Rt-6kI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="-35"/>
         </scene>
     </scenes>
 </document>

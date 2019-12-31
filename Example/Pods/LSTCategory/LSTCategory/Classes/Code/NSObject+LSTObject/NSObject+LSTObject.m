@@ -32,4 +32,21 @@
     }
     return vc;
 }
+
+/** 获取当前屏幕控制器所在的顶层导航栏 */
+- (UINavigationController *)getTopNavigationController {
+    UINavigationController *nav;
+    UIViewController *temp = self.getCurrentUIVC;
+    while (1) {
+        temp = temp.parentViewController;
+        if ([temp isKindOfClass:[UINavigationController class]]) {
+            nav = (UINavigationController *)temp;
+        }
+        if (temp == nil) {
+            break;
+        }
+    }
+    return nav;
+}
+
 @end

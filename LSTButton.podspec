@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSTButton'
-  s.version          = '0.1.12231705'
+  s.version          = '0.1.12311547'
   s.summary          = 'A short description of LSTButton.'
 
 # This description is used to generate tags and improve search results.
@@ -45,4 +45,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'LSTCategory'
+   s.dependency 'Masonry'
 end

@@ -33,6 +33,33 @@
 //若Scale为NO，则原图会根据Size进行填充-不会变形
 - (UIImage *)thumbnailWithSize:(CGSize)asize;
 
+/**
+ *  生成相应圆角image
+ *
+ *  @param radius 圆角度
+ */
+- (UIImage *)imageWithCornerRadius:(CGFloat)radius;
+
+/**
+ *  view截屏(快照)
+ *
+ *  @param view 截屏的view
+ */
++ (UIImage *)snapshotWithView:(UIView *)view;
+
+/**
+ *  view截屏(快照)
+ *
+ *  @param view     截屏的view
+ *  @param snapSize 截屏大小
+ */
++ (UIImage *)snapshotWithView:(UIView *)view size:(CGSize)snapSize;
+
+
+
++ (NSString *)lst_GetLaunchImageName;
+
++ (UIImage *)lst_GetLaunchImage;
 
 //设置图片快捷方式
 UIImage *LSTImageWithName(NSString *imgName);

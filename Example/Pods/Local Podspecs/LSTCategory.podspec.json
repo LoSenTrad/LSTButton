@@ -1,6 +1,6 @@
 {
   "name": "LSTCategory",
-  "version": "0.1.12231543",
+  "version": "0.1.12231756",
   "summary": "LSTCategory.",
   "description": "A short description of LSTCategory.",
   "homepage": "https://github.com/LoSenTrad/LSTCategory",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LoSenTrad/LSTCategory.git",
-    "tag": "0.1.12231543"
+    "tag": "0.1.12231756"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,6 +28,16 @@
     {
       "name": "Code",
       "source_files": "LSTCategory/Classes/Code/**/*",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "LSTGestureEvents",
+      "source_files": "LSTCategory/Classes/Code/LSTGestureEvents/**/*",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "LSTControlEvents",
+      "source_files": "LSTCategory/Classes/Code/LSTControlEvents/**/*",
       "frameworks": "UIKit"
     }
   ]

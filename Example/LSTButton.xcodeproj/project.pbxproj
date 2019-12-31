@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		31ADC80E233CA2FF00E13E4B /* UIView+GLDragBlast.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADC80D233CA2FF00E13E4B /* UIView+GLDragBlast.m */; };
 		31ADC814233CAF1000E13E4B /* LSTBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADC812233CAF1000E13E4B /* LSTBadgeView.m */; };
+		31F36A1423B3B5EE00DDBC69 /* NSString+LSTString.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F36A1323B3B5EE00DDBC69 /* NSString+LSTString.m */; };
+		31F36A1923B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F36A1723B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m */; };
+		31F36A1A23B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F36A1823B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -46,6 +49,11 @@
 		31ADC80D233CA2FF00E13E4B /* UIView+GLDragBlast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GLDragBlast.m"; sourceTree = "<group>"; };
 		31ADC812233CAF1000E13E4B /* LSTBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTBadgeView.m; sourceTree = "<group>"; };
 		31ADC813233CAF1000E13E4B /* LSTBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTBadgeView.h; sourceTree = "<group>"; };
+		31F36A1223B3B5ED00DDBC69 /* NSString+LSTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LSTString.h"; sourceTree = "<group>"; };
+		31F36A1323B3B5EE00DDBC69 /* NSString+LSTString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSTString.m"; sourceTree = "<group>"; };
+		31F36A1623B9DEDA00DDBC69 /* LSTImgTextLayoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTImgTextLayoutVC.h; sourceTree = "<group>"; };
+		31F36A1723B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTImgTextLayoutVC.m; sourceTree = "<group>"; };
+		31F36A1823B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSTImgTextLayoutVC.xib; sourceTree = "<group>"; };
 		35ABB8CD478FC3FE70471A63 /* LSTButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSTButton.podspec; path = ../LSTButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4529438AEFA28E9E902875D8 /* Pods-LSTButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		51864B5B6A4F277CC2784076 /* Pods-LSTButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +109,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31F36A1523B9DE6B00DDBC69 /* 图文布局 */ = {
+			isa = PBXGroup;
+			children = (
+				31F36A1623B9DEDA00DDBC69 /* LSTImgTextLayoutVC.h */,
+				31F36A1723B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m */,
+				31F36A1823B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib */,
+			);
+			name = "图文布局";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +156,9 @@
 		6003F593195388D20070C39A /* Example for LSTButton */ = {
 			isa = PBXGroup;
 			children = (
+				31F36A1523B9DE6B00DDBC69 /* 图文布局 */,
+				31F36A1223B3B5ED00DDBC69 /* NSString+LSTString.h */,
+				31F36A1323B3B5EE00DDBC69 /* NSString+LSTString.m */,
 				6003F59C195388D20070C39A /* LSTAppDelegate.h */,
 				6003F59D195388D20070C39A /* LSTAppDelegate.m */,
 				31ADC80C233CA2FF00E13E4B /* UIView+GLDragBlast.h */,
@@ -291,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				31F36A1A23B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -337,12 +359,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LSTButton/LSTButton.framework",
 				"${BUILT_PRODUCTS_DIR}/LSTCategory/LSTCategory.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTCategory.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
@@ -383,8 +407,10 @@
 			files = (
 				6003F59E195388D20070C39A /* LSTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LSTViewController.m in Sources */,
+				31F36A1923B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m in Sources */,
 				31ADC80E233CA2FF00E13E4B /* UIView+GLDragBlast.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				31F36A1423B3B5EE00DDBC69 /* NSString+LSTString.m in Sources */,
 				31ADC814233CAF1000E13E4B /* LSTBadgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

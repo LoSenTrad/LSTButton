@@ -1,9 +1,9 @@
 {
   "name": "LSTButton",
-  "version": "0.1.0",
+  "version": "0.1.12231705",
   "summary": "A short description of LSTButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/490790096@qq.com/LSTButton",
+  "description": "LSTButtonLSTButtonLSTButtonLSTButtonLSTButtonLSTButton",
+  "homepage": "https://github.com/LoSenTrad/LSTButton.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "490790096@qq.com": "LoSenTrad@163.com"
   },
   "source": {
-    "git": "https://github.com/490790096@qq.com/LSTButton.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/LoSenTrad/LSTButton.git",
+    "tag": "0.1.12231705"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,6 +21,9 @@
   "default_subspecs": "Code",
   "dependencies": {
     "LSTCategory": [
+
+    ],
+    "Masonry": [
 
     ]
   },

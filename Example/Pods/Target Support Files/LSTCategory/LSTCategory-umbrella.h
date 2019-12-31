@@ -11,6 +11,8 @@
 #endif
 
 #import "CALayer+LSTLayer.h"
+#import "LSTControlEvents.h"
+#import "LSTGestureEvents.h"
 #import "NSArray+LSTArray.h"
 #import "NSObject+LSTObject.h"
 #import "NSString+LSTString.h"
