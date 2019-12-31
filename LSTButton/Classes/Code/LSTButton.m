@@ -14,12 +14,7 @@ static char LSTActionTouchUpInsideEventKey;
 
 @interface LSTButton ()
 
-/** <#.....#> */
-@property (nonatomic,strong) UILabel *titleLab;
-/**  */
-@property (nonatomic,strong) UIImageView *imgView;
-/** <#.....#> */
-@property (nonatomic,strong) UIImageView *bgImgView;
+
 /** 图文间距 默认5 */
 @property (nonatomic, assign) CGFloat padding;
 

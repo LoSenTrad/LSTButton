@@ -27,6 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LSTButton : UIControl
 
 
+/** <#.....#> */
+@property (nonatomic,strong) UILabel *titleLab;
+/**  */
+@property (nonatomic,strong) UIImageView *imgView;
+/** <#.....#> */
+@property (nonatomic,strong) UIImageView *bgImgView;
 /** <#...#> */
 @property (nonatomic, assign) LSTButtonImageType imageType;
 /** <#.....#> */
