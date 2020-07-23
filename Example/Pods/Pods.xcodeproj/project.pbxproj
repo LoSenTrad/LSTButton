@@ -7,627 +7,440 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01509A00EF7BF46FEE2BB40138DAE2D2 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FFABCB1AEE3D462567336914DFA7B1 /* YYModel.framework */; };
-		028C5CFFD486813EBA2F478552F33D75 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BC883CE81603CDCC9DF158B9DBB8 /* YYModel-dummy.m */; };
-		02A8311FABAA74897D03E1244C760B47 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38728D25B16300E925B7D2E72EC178BB /* YYClassInfo.m */; };
-		0610E8E9DC73468FC9D2C89062262E7B /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A921CE2A2DFAB5D7F5CA2E6C6F491111 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06456C08C6FAF27618CC78DE779202E8 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5532DA00DA51665FA1DA610569C8DF32 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08284625CBC897F2AA783525B861F090 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E59217118EBE2B28F25C015CC123B0CC /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		132C0A5B353A317A667C810C2AC8E13E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E5A0938CB5EF6D087C14E01A26889 /* MASConstraintMaker.m */; };
-		132C13DD676F772554ACAF57ACAE923A /* LSTGestureEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A6EA0A3549B4C27E4E537A55D8151 /* LSTGestureEvents.m */; };
-		1E03C3EDAFCC9BFC0795AADCBB0CE1C0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFF727E14F4081527E7D7F043B4926 /* ViewController+MASAdditions.m */; };
-		1F42DA6836E80B0A4BFA6534C8A496F8 /* UIProgressView+LSTWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 77599770D246F1080768DDAC32CD2050 /* UIProgressView+LSTWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2229AB6B46C89BBFEE8D87E4BDCA0017 /* NSString+LSTString.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E08394F8210D246729FC5E9CD3D8CB /* NSString+LSTString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24136FB259ADE187C6BC287C24E16C89 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF5F7ACB97F52B7243E3A9E62C6E84C /* MASViewAttribute.m */; };
-		246C34F8D5BD8D0053AC04E9A29181C2 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 452DE3354970F0B7EA13E086BD890F9D /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35606757B8621F59FB711FC695698D7E /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2184646B166C9671D13C0C661B7CFEA /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37BF080778C92B8A5C13E923EFF50393 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6E9095370529B0C05CE6B66EB5899B /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38876AD9219E05933880E6F6847F066F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */; };
-		398C6ED667C977C1573D67B8B49F0DD7 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F1D2F847BB77108D8A9AF563222567 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D4DE4957D741B89275A6931550FA44E /* UILabel+WY_RichText.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8868887D9FC1F637A4B6983F3DE306 /* UILabel+WY_RichText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D4EC932C5DE83382B672D6004F0C0B2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BC817ACFEBB325A914F959D8B94E28 /* NSArray+MASAdditions.m */; };
-		3FD1C0269BEB1735EEF2E692EDF6A740 /* Pods-LSTButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D61686428DEC8642635321D85482CD /* Pods-LSTButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		405351C1C3B136B87AC273F3956C241D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B317C6DB3D7AB968D13972F178461A6 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4268008F18D1156CEC7FFB475FA97682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B814CE199E43EC737AEAE697D347D68 /* UIKit.framework */; };
-		484ED1E95C817CBDFB0ADB4406B7B3BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E62D13493F79DC4209F5BA3FBDE9D2C /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		48ADF5A5D9467C10D4506AEC394F7147 /* UIFont+LSTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B752BF20C4F52051DFBA0CB4126E5EDA /* UIFont+LSTFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4918F397CDAE4BE1B65A7051042CE1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B814CE199E43EC737AEAE697D347D68 /* UIKit.framework */; };
-		4A39CB9635A08D645A013DE5440DD5EA /* LSTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66917BF06C41FF8C1287D86EF75AC7 /* LSTButton.m */; };
-		502C3A6211F98AB2278244E779A87AEB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E48095344FF548CFFCF1B0F64BFBAEEC /* MASLayoutConstraint.m */; };
-		53AFF39A02D8D67C930710EAF3303FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */; };
-		5711AF35220218F265A5EB1A53F9870E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E58C84E6DF6B43F85654521A46684A /* NSObject+YYModel.m */; };
-		5DDF8B19A3F9A7A555D821F35ADFCCA4 /* UIView+LSTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BBA99DF3FF867C2FA8D660ED6397D6 /* UIView+LSTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61DC4D300EA9061AC7745A58F73767BB /* LSTControlEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DCFD3B1440F6F9AF434F31553E435 /* LSTControlEvents.m */; };
-		6478DD59199340B67961BBD9327746FF /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34970D24F40983D3B4126BB1A71BA63D /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EFD76BF2C8D27D252EDCCF59B80ECAA /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D5AE3328B01FD76187645DB1396CEE /* Masonry-dummy.m */; };
-		73894F36D5F96F81CE36FB9798C43B88 /* Pods-LSTButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A035DD5A6A0F590D5B85DEB7C6B97DC /* Pods-LSTButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		755C2B38E15F50D0298913E173DC94FC /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB3971B46FDDE1BA5D1E08133683DCC /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C8A2887D429A4A1CC3E584A785080E0 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 473151D52EA0E0D7D85B4AB74DA255BC /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CD65F9B2654D4D3F181921E1EEDAC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */; };
-		7F6F05DA27F6891B0009D7A68AB9797D /* CALayer+LSTLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A72D181C5BE8AC1EF49885ED3D75A8 /* CALayer+LSTLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81A5CA5A645E4F7DBF91C3EC3DE63DAF /* UIColor+LSTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9D8C92751AD50E262187D3B72B143 /* UIColor+LSTColor.m */; };
-		9202251FA5E739563E73B2E9573D0193 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 258CDDAB92B30FBF22B6E12361A8DCD1 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96A8DD2B885303CEC0AE939C990C9D6D /* UIColor+LSTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9B5C367132704ACC3A372353C9EF77 /* UIColor+LSTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		974683E1C8E6D6CE62B7A5E9578C77F0 /* Pods-LSTButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C251AB644F7C8C84549413B01414407D /* Pods-LSTButton_Example-dummy.m */; };
-		99C02C3B15C63DAF175CADE0BF70CBE6 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CACB6E0CFF3479D043046C9A0098545 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B70091CDD4E6D4DC00715C862A26214 /* UILabel+WY_RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 412174E75913693FDFE1629026427BDF /* UILabel+WY_RichText.m */; };
-		A18D7EC22AB12A2165F32C686CEDE2EA /* LSTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A730EE2889FAE2E87FE307C981E14915 /* LSTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A490E2BB706799784C7673116F95F6F1 /* NSString+LSTString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB22FD38EFA6F95121286ACE15EA3DB /* NSString+LSTString.m */; };
-		A51CF811A31E67AF654D8018A9DCB6D3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2491FC58618E2A45EC50AB188634793 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A695795C86EA6AA15E951C073BCDEF91 /* LSTCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6116FF77E1AF61D760A6BB5760CD9AD /* LSTCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9092FE1A7536B01C87C7981B2DDA624 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF8698ADA309746B04E02570D3391F /* View+MASAdditions.m */; };
-		A9813E4BFBE53EA21C2CFD2536E59836 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C22A0CFE62025AFB053E75B471D569C /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB4E3B6B031339C22BA3F3D7042502E7 /* CALayer+LSTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14205271D5C425EFAD995CC106066BCA /* CALayer+LSTLayer.m */; };
-		ACC552971F61B5D1B691761130DBB2B6 /* UIView+LSTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 389BA71EF4B78469EAEE8310B7350283 /* UIView+LSTView.m */; };
-		AE20EC845DD6EB60C57CCF39CE073493 /* UIImage+LSTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AA32B64A1CF95DFF3A42EA61DE305A /* UIImage+LSTImage.m */; };
-		AFD6422562C185F607A3D7D14C0A320F /* NSObject+LSTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CB41F9EF5BC6C7A3991E61E8F4BE520C /* NSObject+LSTObject.m */; };
-		B4793783A0D73349E402D50F663D7B3A /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7D4B6F79CB1D9F22B2A2D32B8EE10D /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B99FCB12922E0375C43FCE0A1C7C6C84 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B610804B996CC2A0B2EC799652A89B /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAD7E80DEE5FC02DA9590963E867ECF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */; };
-		BBEE85281D08FB73660C6E883AF8E7C2 /* NSObject+LSTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD98C88D578E81191C6D5F69D6F4040 /* NSObject+LSTObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEFEA1B264A4EA5FE7434D15B9843887 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71F7179D04D4B1DD8BDB638469633D /* MASViewConstraint.m */; };
-		C8D0E01A27ADC6382546B39EFD28C556 /* LSTButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 405A0820E242626BBD6EB40CF5614ABB /* LSTButton-dummy.m */; };
-		CF68BD571A50997000EAECFEBF03038D /* NSArray+LSTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 43553BAA59D110E881A3273B3DFA63BA /* NSArray+LSTArray.m */; };
-		CFE691C1822E4326F4B5BCF3AEC7356A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C710EC0C6C56289B3397C56FC21DB /* MASConstraint.m */; };
-		CFEC4BD84E7CC4C48714B6C17B6CC28D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */; };
-		D40DB7A38D07B9BD35F06FCCF1051C07 /* LSTControlEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B81079D1F4D1D1526E4530BDFC8F2 /* LSTControlEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB143F4E3B89A4119CE95684FBEA7706 /* NSArray+LSTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5B264F2A2545B39DA71AF4758A314E /* NSArray+LSTArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC0A35C9E7FA23A7CB95B2BC036ACCB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */; };
-		DD4136FCCA6F5F129F184D38723617C1 /* LSTGestureEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCEFD75451AC2B3E7C643839E58307C /* LSTGestureEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE9267C605A0B3AE1BE8A3CBABAFF04C /* Pods-LSTButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE9CD92255835E340F5B18AC098BCBC /* Pods-LSTButton_Tests-dummy.m */; };
-		E15BEAD1BE082BE810FD252122C131D0 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FF25E536D7267D07390E650F2D9349 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2DA1A6358A813DC31E6ACD5E6D1CAB1 /* LSTCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ED3BE29FEC8D49C4F49D9D66F602AD /* LSTCategory.framework */; };
-		E6F2F5A22E8F8B07C8E1BCD43C4DB521 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C303C3A4FE43309F3AC9072314B8A1 /* MASCompositeConstraint.m */; };
-		E867B1C566B27618A71514F3E3BA0C80 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E174319ECF1C597614700B26E334E81 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB122CD56AEFD407C0C41CDA879F0E2E /* UIImage+LSTImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 992DABE9E6BB230AA4A4A2C0E64C1713 /* UIImage+LSTImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECDE438A30A078453EE7D30DB64E1403 /* UIProgressView+LSTWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB46C6B7646AB42031A4DAAFB119306 /* UIProgressView+LSTWebViewProgress.m */; };
-		F026D52FB796D8B75DE9AB345EB26EDE /* LSTCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5693545BC412A83E9B0CD6F0CE0F4E /* LSTCategory-dummy.m */; };
-		F073547BA350F0BB872E8832A1AF6D36 /* UIFont+LSTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7C8D4543A813DC35DCD0D6EC8A9A4 /* UIFont+LSTFont.m */; };
-		F37A8234C0604D092BE31BDD972FD726 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B814CE199E43EC737AEAE697D347D68 /* UIKit.framework */; };
-		F40A05466F6BBD6D4ACFE2E9AD7D08C7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6991305C0B163CECED07C573DEEDC1E /* CoreFoundation.framework */; };
-		F48DA409732C540BD107042D7446BE02 /* LSTButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0FAD0939B733B6A8A2DE944AA6B48F /* LSTButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9E8E0B423B9FC03F93C0844EFFB7AA0 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95C2264CC4E0D4000445D26F53583CE /* Masonry.framework */; };
-		FE97936F120EAB1D2FE0ECCAA29E95B0 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D4B58BC3C57324D74D85CD8DEABA62 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		029BB0A3F4822079B99BBD7EAE812092 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */; };
+		0A1C638E459E79973121DD5E2FA552A5 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B74B1A832B4CC8DE0C46D2A1FAE9E48 /* LSTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0112D1599B2D2BE333F5019D25043D58 /* LSTButton.m */; };
+		0C787998F97A56571B93D8FD1BA550B3 /* NSObject+LSTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC22374C5D1069E6809A038536E56E1 /* NSObject+LSTObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D47AAC18EFE19172E85AA8E1B10F681 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EDE51BF5FD7E9F5E1FB9DFEE0BDF81E /* Pods-LSTButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7F233601AE3F52861A33E98C0435B /* Pods-LSTButton_Example-dummy.m */; };
+		1EEAEEF4CABF91E41CFE450A3FB01A98 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2039E9450FED62B1EFAFC31AB5302980 /* LSTGestureEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 560239C7A20D0C1514E8634D227B73EF /* LSTGestureEvents.m */; };
+		25A1033A45B8554A4C37A229AE8D4AA1 /* UIFont+LSTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB39DB01A42B43343D15F623530191 /* UIFont+LSTFont.m */; };
+		282D8C12F0FDE3D08BABD8ACE213903A /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2ADAE7C992D912D750E01A3EF9B727D1 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FE81E77FE4759DF964610F9C354B88F /* UIProgressView+LSTWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C35B3A6A1690E4534EC115E95155B /* UIProgressView+LSTWebViewProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38CB64D251E39B2A2BC0CB9D4C40466D /* LSTGestureEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C2773AB61D1E53E486EA4F45CB5CE8 /* LSTGestureEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C1BDF7F547CA367F369C6E6570A99B2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */; };
+		40C8DB47DF634D5334AA9FD96F035894 /* UIColor+LSTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6EF7A5379508BC27A8868660579834 /* UIColor+LSTColor.m */; };
+		454F237D0048A72583EC44B738E734D9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */; };
+		4D69DD35C5944E9041DE3EC716444659 /* CALayer+LSTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7177293892DF126A4949BAD1C47716 /* CALayer+LSTLayer.m */; };
+		67E2B1D99B171B82FCF3CDE292A63285 /* UIView+LSTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E3D42FE279F5819399B70F7F93AF1D /* UIView+LSTView.m */; };
+		69AFA301707D983BBD76659FAF2678AC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */; };
+		6C46AA100B77EF3F1B37320C2BA7CADF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71905538C717F1EE80C8ECBD0D4C09DD /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		784C19F97ECECB67A7FAA28DFC28A90B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AC91292AE5307158F01A0312BE79BB8 /* NSString+LSTString.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D40A655F3BB54E727E877746280170 /* NSString+LSTString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86DCD04AEEE25B45E8152348919DB81F /* LSTCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C9125CF5CAD508DE8639AF185A4261 /* LSTCategory-dummy.m */; };
+		8A363262D80699E87402AADBB96A34F0 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9233F1A05A0661C0D9B4DB1789468089 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		942638CB40302AE9DF5F09CABCA12CD0 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94DF9BF2D0A7C2211B990B7FA26EC574 /* LSTControlEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF28767341B37DCCAEFC5D640D0A77 /* LSTControlEvents.m */; };
+		95BEE6306B84DAA2126512DC240D225A /* NSString+LSTString.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CD972A68F2AF76B0D7DE2FF373C2B /* NSString+LSTString.m */; };
+		9715B6651E1C17C4C334C3DAE7127C74 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */; };
+		9FA7B8B7393C891F3BE76BD2C799B117 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */; };
+		A2D5791A670EB0C2105650049FD57D89 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B47A13019E1A7FDC50E60E9173FDFAE4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BA6BAB6A92298C7CEEAC1343882F9DFA /* LSTButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912D9C8398424CCCA554981DBC5F0E58 /* LSTButton-dummy.m */; };
+		BCC0E5E2908152A48527EB059730742F /* LSTControlEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 9478A3235863AD4AE7AD3E8510EA2023 /* LSTControlEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C02B3445013BD26FFF920529354C98EF /* UIColor+LSTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1601A4BA33DB8390B940DE2964386A7F /* UIColor+LSTColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C47A4AEE493ADD4A954E3CCAE2C43F61 /* Pods-LSTButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E703E523B776658909B39CE6B87CEE3E /* Pods-LSTButton_Tests-dummy.m */; };
+		C4D714D8CBFC6139882457A9BF93B87A /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD784CC6600447EB4FC64688E2C37993 /* UIFont+LSTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B9A138A6B8A9E27D90E2B32DD25681 /* UIFont+LSTFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D99275CB2551066E82C8B49D5F93C045 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */; };
+		DC02B63BAA5692D24785B723619A309A /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1DDBDCFADC3F016DECBD7D177EA6315 /* UIProgressView+LSTWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D3802144DB00E1A639F39BFC731CBE96 /* UIProgressView+LSTWebViewProgress.m */; };
+		E38BCD75DAA2B15430D1D6760FDE033B /* CALayer+LSTLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFF8400DDC190DE3645F8EE6B43F376 /* CALayer+LSTLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E43B2AFBB0FE2A7B3178BBB963EA9A92 /* UILabel+WY_RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = EA84A440D8B9E0AFAF3C7CE3255DE2D0 /* UILabel+WY_RichText.m */; };
+		EA3AECD717E48BEF2A09E70FD734FD96 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */; };
+		EB7CE4F63A49EAE90A5D5642B659E04E /* NSObject+LSTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E94765799255ED3E834692E94AB2FD4 /* NSObject+LSTObject.m */; };
+		EB9B1BF54A62CAD2C6196EC9A8DB4F92 /* UIView+LSTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A22393E6202CEA62E14DCA79AEA05 /* UIView+LSTView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1981FCC975B426205ECC3A40CE0219A /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F49EBC17907F5B5DC28392F5F13FD508 /* LSTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A508AABCE3B352F6851869F1632E4634 /* LSTButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6A256E521AA92362517F4137EB0146D /* UILabel+WY_RichText.h in Headers */ = {isa = PBXBuildFile; fileRef = A54A19DCF0BAE071679636351E80A01A /* UILabel+WY_RichText.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8DE2336E337D0E8359C28BC5D140DC5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */; };
+		FB71D70F1B5D9887FE144C62F152B49C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0597E81A022F7F1CC91475BB1B1A41A2 /* PBXContainerItemProxy */ = {
+		0A5BE55AFEC09A4D71717870FAA4271C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 95632358D0525A520467DAAD7ECCA44A;
 			remoteInfo = LSTCategory;
 		};
-		56D75E0CBA3F409B896DF8B4EFFB6E99 /* PBXContainerItemProxy */ = {
+		4FD3F992BEB9F2A1E9B467FD19E66A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		53C20837ED94995ACD409CCD05B31FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		BAF32B140D0CB80E31E1266534C00934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95632358D0525A520467DAAD7ECCA44A;
+			remoteInfo = LSTCategory;
+		};
+		DDD13FA76D3889637850B34581F094E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA9BDC16575BA05DE0B00571BE9775DA;
 			remoteInfo = LSTButton;
 		};
-		73E563B66254015D751273A1A43FFF1B /* PBXContainerItemProxy */ = {
+		F8F0F3CD2D98557A7FA7103B42CD24BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 44D6F39377362F2A17863AC06265515F;
 			remoteInfo = "Pods-LSTButton_Example";
 		};
-		74547CBF250AF68F8BEEE3FB9EFEC56C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
-		};
-		9EDDAD07EBE4BA9671155B091FE1A232 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		A9295645DC12C3672A47D6C92715588C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
-		};
-		BC83345D30716815C132DA96AED97ED9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		C2DD1756B4C79D3251232E565E8857A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95632358D0525A520467DAAD7ECCA44A;
-			remoteInfo = LSTCategory;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A72D181C5BE8AC1EF49885ED3D75A8 /* CALayer+LSTLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+LSTLayer.h"; sourceTree = "<group>"; };
-		031385603F6A4537B3A08A1699812F6D /* LSTButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		03ED3BE29FEC8D49C4F49D9D66F602AD /* LSTCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LSTCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06A7C8D4543A813DC35DCD0D6EC8A9A4 /* UIFont+LSTFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LSTFont.m"; sourceTree = "<group>"; };
-		093E5A0938CB5EF6D087C14E01A26889 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		0B8868887D9FC1F637A4B6983F3DE306 /* UILabel+WY_RichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+WY_RichText.h"; path = "LSTCategory/Classes/Code/UILabel+WY_RichText.h"; sourceTree = "<group>"; };
-		0BB4DF4C9810A052FE97F286E16604F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0C6E9095370529B0C05CE6B66EB5899B /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		0CCDE71FEF95C11542D06832BDC8DB4E /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
-		0E7D4B6F79CB1D9F22B2A2D32B8EE10D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0FB46C6B7646AB42031A4DAAFB119306 /* UIProgressView+LSTWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+LSTWebViewProgress.m"; sourceTree = "<group>"; };
-		10021EB4C53E207404626295107490C2 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
-		12A6867725524C1F38BC3268A388992F /* Pods-LSTButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		13DA04086C690364879ED1BB69CD28D7 /* LSTCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTCategory.modulemap; sourceTree = "<group>"; };
-		14205271D5C425EFAD995CC106066BCA /* CALayer+LSTLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LSTLayer.m"; sourceTree = "<group>"; };
-		17AA32B64A1CF95DFF3A42EA61DE305A /* UIImage+LSTImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LSTImage.m"; sourceTree = "<group>"; };
-		1B814CE199E43EC737AEAE697D347D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1C89BCECC1A4B300D2E36A1C7417A3A1 /* LSTButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSTButton.framework; path = LSTButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		258CDDAB92B30FBF22B6E12361A8DCD1 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		27FF8698ADA309746B04E02570D3391F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		282B02ECB47AADD919E0BA8BE9218E45 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		28F1D2F847BB77108D8A9AF563222567 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		31D5AE3328B01FD76187645DB1396CEE /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		34970D24F40983D3B4126BB1A71BA63D /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		38728D25B16300E925B7D2E72EC178BB /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
-		389BA71EF4B78469EAEE8310B7350283 /* UIView+LSTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSTView.m"; sourceTree = "<group>"; };
-		3C22A0CFE62025AFB053E75B471D569C /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
-		3CCEFD75451AC2B3E7C643839E58307C /* LSTGestureEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTGestureEvents.h; sourceTree = "<group>"; };
-		3DF9D8C92751AD50E262187D3B72B143 /* UIColor+LSTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSTColor.m"; sourceTree = "<group>"; };
-		405A0820E242626BBD6EB40CF5614ABB /* LSTButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTButton-dummy.m"; sourceTree = "<group>"; };
-		412174E75913693FDFE1629026427BDF /* UILabel+WY_RichText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WY_RichText.m"; path = "LSTCategory/Classes/Code/UILabel+WY_RichText.m"; sourceTree = "<group>"; };
-		43553BAA59D110E881A3273B3DFA63BA /* NSArray+LSTArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LSTArray.m"; sourceTree = "<group>"; };
-		44C303C3A4FE43309F3AC9072314B8A1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		452DE3354970F0B7EA13E086BD890F9D /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		473151D52EA0E0D7D85B4AB74DA255BC /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		48D4B58BC3C57324D74D85CD8DEABA62 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
-		4B317C6DB3D7AB968D13972F178461A6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4BB22FD38EFA6F95121286ACE15EA3DB /* NSString+LSTString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSTString.m"; sourceTree = "<group>"; };
-		4C71F7179D04D4B1DD8BDB638469633D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* LSTCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSTCategory.framework; path = LSTCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9C710EC0C6C56289B3397C56FC21DB /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		4FB3971B46FDDE1BA5D1E08133683DCC /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5532DA00DA51665FA1DA610569C8DF32 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		596577EFE78A895753225732FBF9C666 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5B2A6EA0A3549B4C27E4E537A55D8151 /* LSTGestureEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTGestureEvents.m; sourceTree = "<group>"; };
-		5F70661C742AE45E823A856550734EA2 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
-		6370FAAD439331EA17E1BC6B8F5E7CDF /* Pods-LSTButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTButton_Example-Info.plist"; sourceTree = "<group>"; };
-		6743E7EAE50BDFBDF2DD7305217414FD /* LSTCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTCategory-prefix.pch"; sourceTree = "<group>"; };
-		67E67298076649D690553F101EAAE448 /* LSTCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTCategory.xcconfig; sourceTree = "<group>"; };
-		69FF25E536D7267D07390E650F2D9349 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		6A035DD5A6A0F590D5B85DEB7C6B97DC /* Pods-LSTButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSTButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		6E174319ECF1C597614700B26E334E81 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		6F0FAD0939B733B6A8A2DE944AA6B48F /* LSTButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTButton-umbrella.h"; sourceTree = "<group>"; };
-		704303734D6D1E0B08034418089D5675 /* LSTButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTButton.xcconfig; sourceTree = "<group>"; };
-		7460AAEE4216846DC4605B0ACCBCF61F /* Pods-LSTButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		76FFABCB1AEE3D462567336914DFA7B1 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77599770D246F1080768DDAC32CD2050 /* UIProgressView+LSTWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+LSTWebViewProgress.h"; sourceTree = "<group>"; };
-		78D1DF8BA77006975E5AD82155F8228E /* LSTCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7AD2612517ADB6165BFDFD87147F629C /* Pods-LSTButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSTButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7CACB6E0CFF3479D043046C9A0098545 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		7E62D13493F79DC4209F5BA3FBDE9D2C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		88BBA99DF3FF867C2FA8D660ED6397D6 /* UIView+LSTView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LSTView.h"; sourceTree = "<group>"; };
-		88E08394F8210D246729FC5E9CD3D8CB /* NSString+LSTString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LSTString.h"; sourceTree = "<group>"; };
-		899274BF626FC7155B2F7115E6DD1553 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		8B5693545BC412A83E9B0CD6F0CE0F4E /* LSTCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTCategory-dummy.m"; sourceTree = "<group>"; };
-		8B9B5C367132704ACC3A372353C9EF77 /* UIColor+LSTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSTColor.h"; sourceTree = "<group>"; };
-		8CD98C88D578E81191C6D5F69D6F4040 /* NSObject+LSTObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LSTObject.h"; sourceTree = "<group>"; };
-		8EE9CD92255835E340F5B18AC098BCBC /* Pods-LSTButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		903D8BB0C68BE0C43304168B0905B268 /* LSTCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTCategory-Info.plist"; sourceTree = "<group>"; };
-		90E58C84E6DF6B43F85654521A46684A /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
-		917B147F5A2E6AEBEA174F62A4401994 /* Pods-LSTButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9180A7B7AB16EB8ADD4D5D0C12A26554 /* Pods-LSTButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		94E03BEAEE7A26BCC97FB797B9723879 /* LSTButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTButton-prefix.pch"; sourceTree = "<group>"; };
-		992DABE9E6BB230AA4A4A2C0E64C1713 /* UIImage+LSTImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LSTImage.h"; sourceTree = "<group>"; };
-		9C89546DF640AD3AC357FEFA5E37A3DB /* Pods-LSTButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0112D1599B2D2BE333F5019D25043D58 /* LSTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSTButton.m; path = LSTButton/Classes/Code/LSTButton.m; sourceTree = "<group>"; };
+		03806904B4F77D0C931B937F3E6AC887 /* Pods-LSTButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		12EF28767341B37DCCAEFC5D640D0A77 /* LSTControlEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTControlEvents.m; sourceTree = "<group>"; };
+		1601A4BA33DB8390B940DE2964386A7F /* UIColor+LSTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSTColor.h"; sourceTree = "<group>"; };
+		16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		18D40A655F3BB54E727E877746280170 /* NSString+LSTString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LSTString.h"; sourceTree = "<group>"; };
+		1C89BCECC1A4B300D2E36A1C7417A3A1 /* libLSTButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLSTButton.a; path = libLSTButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		31645AA8356954F9261A87EE2C11C37A /* Pods-LSTButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3EE48261B1455E7E20CAED2E5263ECC4 /* LSTCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTCategory.release.xcconfig; sourceTree = "<group>"; };
+		411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		42D06458120384B316008924E089EBBE /* LSTCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTCategory-prefix.pch"; sourceTree = "<group>"; };
+		44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		47A78963B3C3EEFAD546464537FDD587 /* LSTCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		498A22393E6202CEA62E14DCA79AEA05 /* UIView+LSTView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LSTView.h"; sourceTree = "<group>"; };
+		49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		49DB39DB01A42B43343D15F623530191 /* UIFont+LSTFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LSTFont.m"; sourceTree = "<group>"; };
+		4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* libLSTCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLSTCategory.a; path = libLSTCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		560239C7A20D0C1514E8634D227B73EF /* LSTGestureEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTGestureEvents.m; sourceTree = "<group>"; };
+		587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		5D7177293892DF126A4949BAD1C47716 /* CALayer+LSTLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LSTLayer.m"; sourceTree = "<group>"; };
+		5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		60D32EBBAA3D85D4854910D6302B16E5 /* Pods-LSTButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		61C9125CF5CAD508DE8639AF185A4261 /* LSTCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTCategory-dummy.m"; sourceTree = "<group>"; };
+		64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		68E3D42FE279F5819399B70F7F93AF1D /* UIView+LSTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSTView.m"; sourceTree = "<group>"; };
+		6A7E8DB5D2742842B9F287D206477FDD /* Pods-LSTButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E74E2CE985F4EB273C9954F1EB97DFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		766DDC51E6F95B86CBD942863F745FDF /* LSTCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTCategory.debug.xcconfig; sourceTree = "<group>"; };
+		7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		852B73E95EB808D5CE4724DD78F8378B /* LSTButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTButton.debug.xcconfig; sourceTree = "<group>"; };
+		8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8AEE237ED2F20526A2FA1F96839EDA7D /* LSTButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTButton.release.xcconfig; sourceTree = "<group>"; };
+		8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8E94765799255ED3E834692E94AB2FD4 /* NSObject+LSTObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LSTObject.m"; sourceTree = "<group>"; };
+		8EFF8400DDC190DE3645F8EE6B43F376 /* CALayer+LSTLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+LSTLayer.h"; sourceTree = "<group>"; };
+		8F3D16B6683637AE3799A73EE97F34FE /* LSTButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTButton-prefix.pch"; sourceTree = "<group>"; };
+		912D9C8398424CCCA554981DBC5F0E58 /* LSTButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTButton-dummy.m"; sourceTree = "<group>"; };
+		91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		9478A3235863AD4AE7AD3E8510EA2023 /* LSTControlEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTControlEvents.h; sourceTree = "<group>"; };
+		977E61BA6BE363F936CCBBAA3F5CE47C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9CA7F233601AE3F52861A33E98C0435B /* Pods-LSTButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTButton_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E7D68BB0A89D96EA32429FFAC6F39DF /* LSTButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTButton.modulemap; sourceTree = "<group>"; };
-		A730EE2889FAE2E87FE307C981E14915 /* LSTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSTButton.h; path = LSTButton/Classes/Code/LSTButton.h; sourceTree = "<group>"; };
-		A921CE2A2DFAB5D7F5CA2E6C6F491111 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
-		AC66917BF06C41FF8C1287D86EF75AC7 /* LSTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSTButton.m; path = LSTButton/Classes/Code/LSTButton.m; sourceTree = "<group>"; };
-		AE5B264F2A2545B39DA71AF4758A314E /* NSArray+LSTArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+LSTArray.h"; sourceTree = "<group>"; };
-		B1BC817ACFEBB325A914F959D8B94E28 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B4161B8579A6B1EB476BCB1404F4EAAB /* Pods-LSTButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6991305C0B163CECED07C573DEEDC1E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		B752BF20C4F52051DFBA0CB4126E5EDA /* UIFont+LSTFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+LSTFont.h"; sourceTree = "<group>"; };
-		C2184646B166C9671D13C0C661B7CFEA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		C2491FC58618E2A45EC50AB188634793 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		C251AB644F7C8C84549413B01414407D /* Pods-LSTButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTButton_Example-dummy.m"; sourceTree = "<group>"; };
-		CB41F9EF5BC6C7A3991E61E8F4BE520C /* NSObject+LSTObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LSTObject.m"; sourceTree = "<group>"; };
-		CE13F458D661497A6F28A551E5EC8173 /* LSTButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTButton-Info.plist"; sourceTree = "<group>"; };
-		D34DB525CEBEE6EA0632DB5CEF78B3A7 /* Pods_LSTButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSTButton_Tests.framework; path = "Pods-LSTButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38B81079D1F4D1D1526E4530BDFC8F2 /* LSTControlEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTControlEvents.h; sourceTree = "<group>"; };
-		D8EFF727E14F4081527E7D7F043B4926 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		D95C2264CC4E0D4000445D26F53583CE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBEC19ED8387E66552C9B7008427DAAD /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		DC7DCFD3B1440F6F9AF434F31553E435 /* LSTControlEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTControlEvents.m; sourceTree = "<group>"; };
-		DCAB710556BCBC5E24374B0054F3E273 /* Pods-LSTButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DFB656254DA951B0B817BC7DE73DB3F8 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
-		E206BC883CE81603CDCC9DF158B9DBB8 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
-		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E48095344FF548CFFCF1B0F64BFBAEEC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		E59217118EBE2B28F25C015CC123B0CC /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		E5B610804B996CC2A0B2EC799652A89B /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		E85D84AA03D8F99BE06C44263280C575 /* Pods-LSTButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSTButton_Example.modulemap"; sourceTree = "<group>"; };
-		ECF5F7ACB97F52B7243E3A9E62C6E84C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		EF45632A5EC595B46670ED89CB8FFBD5 /* Pods_LSTButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSTButton_Example.framework; path = "Pods-LSTButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0D61686428DEC8642635321D85482CD /* Pods-LSTButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSTButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F6116FF77E1AF61D760A6BB5760CD9AD /* LSTCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTCategory-umbrella.h"; sourceTree = "<group>"; };
-		F786CA9DC36B34097EBDD0BA46CC9EB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F91CEFAC39FF295FEC7CB8BC6E66711C /* Pods-LSTButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA5D6B16F10B03B8009553067D4B91FA /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		FBCD2F6C1C1FDA30233ED33A6C5DDAC3 /* Pods-LSTButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSTButton_Tests.modulemap"; sourceTree = "<group>"; };
-		FCBEF35941B7F53527E6681EBABEDE55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FF714164C18CCCDCE54EF922364353D7 /* Pods-LSTButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		A508AABCE3B352F6851869F1632E4634 /* LSTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSTButton.h; path = LSTButton/Classes/Code/LSTButton.h; sourceTree = "<group>"; };
+		A54A19DCF0BAE071679636351E80A01A /* UILabel+WY_RichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+WY_RichText.h"; path = "LSTCategory/Classes/Code/UILabel+WY_RichText.h"; sourceTree = "<group>"; };
+		A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		AB6EF7A5379508BC27A8868660579834 /* UIColor+LSTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSTColor.m"; sourceTree = "<group>"; };
+		B7DF3BC1EA58C75D8CE3CDF3C301E722 /* Pods-LSTButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B867FD458FF5DB8C364F8D26FC9A7EF6 /* LSTButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB4D478150191E8CD9602C0EDC7CB61F /* Pods-LSTButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C13CA250B34179BC2F8A640588BFA44E /* Pods-LSTButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C7B9A138A6B8A9E27D90E2B32DD25681 /* UIFont+LSTFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+LSTFont.h"; sourceTree = "<group>"; };
+		C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CC7CD972A68F2AF76B0D7DE2FF373C2B /* NSString+LSTString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSTString.m"; sourceTree = "<group>"; };
+		D34DB525CEBEE6EA0632DB5CEF78B3A7 /* libPods-LSTButton_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LSTButton_Tests.a"; path = "libPods-LSTButton_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3802144DB00E1A639F39BFC731CBE96 /* UIProgressView+LSTWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+LSTWebViewProgress.m"; sourceTree = "<group>"; };
+		D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D61515F74EFB5361C0D891869E501087 /* Pods-LSTButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6C2773AB61D1E53E486EA4F45CB5CE8 /* LSTGestureEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTGestureEvents.h; sourceTree = "<group>"; };
+		E703E523B776658909B39CE6B87CEE3E /* Pods-LSTButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		EA84A440D8B9E0AFAF3C7CE3255DE2D0 /* UILabel+WY_RichText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WY_RichText.m"; path = "LSTCategory/Classes/Code/UILabel+WY_RichText.m"; sourceTree = "<group>"; };
+		EF45632A5EC595B46670ED89CB8FFBD5 /* libPods-LSTButton_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LSTButton_Example.a"; path = "libPods-LSTButton_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C14401B8557519E3EE7D1962F7A7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1158C045B9FEC3FB24F2925B1C88530 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F74C35B3A6A1690E4534EC115E95155B /* UIProgressView+LSTWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+LSTWebViewProgress.h"; sourceTree = "<group>"; };
+		FDC22374C5D1069E6809A038536E56E1 /* NSObject+LSTObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LSTObject.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		106BF86F56A0822486F9ACC4AEF850F5 /* Frameworks */ = {
+		35103BCAC08DE7ECD55AAAC90EFC92B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD7E80DEE5FC02DA9590963E867ECF4 /* Foundation.framework in Frameworks */,
-				E2DA1A6358A813DC31E6ACD5E6D1CAB1 /* LSTCategory.framework in Frameworks */,
-				F9E8E0B423B9FC03F93C0844EFFB7AA0 /* Masonry.framework in Frameworks */,
-				4268008F18D1156CEC7FFB475FA97682 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A82F31988427E36A0DB602714C25BBF /* Frameworks */ = {
+		3FBE6021DC7071A107524890BADC1F23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38876AD9219E05933880E6F6847F066F /* Foundation.framework in Frameworks */,
-				F37A8234C0604D092BE31BDD972FD726 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7423FE965F346788B4A7D45FA230DA9F /* Frameworks */ = {
+		61EF851853BF30C17C707134669EFAD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEC4BD84E7CC4C48714B6C17B6CC28D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0DEC485C9292D28C4A8C2BA6FE8748 /* Frameworks */ = {
+		6D6E3E262904B024D462C60760AF8AA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CD65F9B2654D4D3F181921E1EEDAC1E /* Foundation.framework in Frameworks */,
-				4918F397CDAE4BE1B65A7051042CE1FB /* UIKit.framework in Frameworks */,
-				01509A00EF7BF46FEE2BB40138DAE2D2 /* YYModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F604EC6186D39D837310BF327120EA4D /* Frameworks */ = {
+		8EDDB133E6C378EA8598EE42BD35A577 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40A05466F6BBD6D4ACFE2E9AD7D08C7 /* CoreFoundation.framework in Frameworks */,
-				53AFF39A02D8D67C930710EAF3303FCC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEBEA7A33CC57F9C94D1B180E0D39DAA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC0A35C9E7FA23A7CB95B2BC036ACCB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24C9423852B10ABC6A4431530DC45494 /* Support Files */ = {
+		0931D17A55677652C51CE029C2659A61 /* Pods-LSTButton_Example */ = {
 			isa = PBXGroup;
 			children = (
-				FA5D6B16F10B03B8009553067D4B91FA /* Masonry.modulemap */,
-				899274BF626FC7155B2F7115E6DD1553 /* Masonry.xcconfig */,
-				31D5AE3328B01FD76187645DB1396CEE /* Masonry-dummy.m */,
-				282B02ECB47AADD919E0BA8BE9218E45 /* Masonry-Info.plist */,
-				DBEC19ED8387E66552C9B7008427DAAD /* Masonry-prefix.pch */,
-				5532DA00DA51665FA1DA610569C8DF32 /* Masonry-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		28BF0F27285F49CB96CC02298A3BC1FF /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				0B8868887D9FC1F637A4B6983F3DE306 /* UILabel+WY_RichText.h */,
-				412174E75913693FDFE1629026427BDF /* UILabel+WY_RichText.m */,
-				782A1F711A85E9F18283243ED88423BE /* CALayer+LSTLayer */,
-				4FAE07995CD25344C1F5895ED424526C /* LSTControlEvents */,
-				63798C1FCB0379CD55F4613F9296D5AB /* LSTGestureEvents */,
-				EA9401A2A7CB5FBDC72A02B4D9BC8AF6 /* NSArray+LSTArray */,
-				3242AE858E3CF289F09535162C490E4F /* NSObject+LSTObject */,
-				E8A1D1F8B1C41BBD3EB0A52D15D9B848 /* NSString+LSTString */,
-				3FE9B8F9ED48E68AED241D83AE45917D /* UIColor+LSTColor */,
-				BC457201D07C40C3F369B5ED4B31457C /* UIFont+LSTFont */,
-				ABA4201A96B81B9145969C55B49F547D /* UIImage +LSTImage */,
-				3977E0AA9F17284DEA924A077E0DC68B /* UIProgressView+LSTWebViewProgress */,
-				B96EFA1F955C81A08F33D505DF807290 /* UIView+LSTView */,
-			);
-			name = Code;
-			sourceTree = "<group>";
-		};
-		2F130682278CAA5568BCD8FCC57E7210 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0BB4DF4C9810A052FE97F286E16604F5 /* LICENSE */,
-				031385603F6A4537B3A08A1699812F6D /* LSTButton.podspec */,
-				FCBEF35941B7F53527E6681EBABEDE55 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3242AE858E3CF289F09535162C490E4F /* NSObject+LSTObject */ = {
-			isa = PBXGroup;
-			children = (
-				8CD98C88D578E81191C6D5F69D6F4040 /* NSObject+LSTObject.h */,
-				CB41F9EF5BC6C7A3991E61E8F4BE520C /* NSObject+LSTObject.m */,
-			);
-			name = "NSObject+LSTObject";
-			path = "LSTCategory/Classes/Code/NSObject+LSTObject";
-			sourceTree = "<group>";
-		};
-		3977E0AA9F17284DEA924A077E0DC68B /* UIProgressView+LSTWebViewProgress */ = {
-			isa = PBXGroup;
-			children = (
-				77599770D246F1080768DDAC32CD2050 /* UIProgressView+LSTWebViewProgress.h */,
-				0FB46C6B7646AB42031A4DAAFB119306 /* UIProgressView+LSTWebViewProgress.m */,
-			);
-			name = "UIProgressView+LSTWebViewProgress";
-			path = "LSTCategory/Classes/Code/UIProgressView+LSTWebViewProgress";
-			sourceTree = "<group>";
-		};
-		3B75E9F8B833255C202970A3D0D0D05E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				13DA04086C690364879ED1BB69CD28D7 /* LSTCategory.modulemap */,
-				67E67298076649D690553F101EAAE448 /* LSTCategory.xcconfig */,
-				8B5693545BC412A83E9B0CD6F0CE0F4E /* LSTCategory-dummy.m */,
-				903D8BB0C68BE0C43304168B0905B268 /* LSTCategory-Info.plist */,
-				6743E7EAE50BDFBDF2DD7305217414FD /* LSTCategory-prefix.pch */,
-				F6116FF77E1AF61D760A6BB5760CD9AD /* LSTCategory-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../../LSTButton/LSTButton/Example/Pods/Target Support Files/LSTCategory";
-			sourceTree = "<group>";
-		};
-		3FE9B8F9ED48E68AED241D83AE45917D /* UIColor+LSTColor */ = {
-			isa = PBXGroup;
-			children = (
-				8B9B5C367132704ACC3A372353C9EF77 /* UIColor+LSTColor.h */,
-				3DF9D8C92751AD50E262187D3B72B143 /* UIColor+LSTColor.m */,
-			);
-			name = "UIColor+LSTColor";
-			path = "LSTCategory/Classes/Code/UIColor+LSTColor";
-			sourceTree = "<group>";
-		};
-		4794597571D4FF71D5DD09019C9123C6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F786CA9DC36B34097EBDD0BA46CC9EB4 /* LICENSE */,
-				78D1DF8BA77006975E5AD82155F8228E /* LSTCategory.podspec */,
-				596577EFE78A895753225732FBF9C666 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		49818F35B3629C362146797FEA87A0C0 /* Pods-LSTButton_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E85D84AA03D8F99BE06C44263280C575 /* Pods-LSTButton_Example.modulemap */,
-				9C89546DF640AD3AC357FEFA5E37A3DB /* Pods-LSTButton_Example-acknowledgements.markdown */,
-				F91CEFAC39FF295FEC7CB8BC6E66711C /* Pods-LSTButton_Example-acknowledgements.plist */,
-				C251AB644F7C8C84549413B01414407D /* Pods-LSTButton_Example-dummy.m */,
-				7AD2612517ADB6165BFDFD87147F629C /* Pods-LSTButton_Example-frameworks.sh */,
-				6370FAAD439331EA17E1BC6B8F5E7CDF /* Pods-LSTButton_Example-Info.plist */,
-				6A035DD5A6A0F590D5B85DEB7C6B97DC /* Pods-LSTButton_Example-umbrella.h */,
-				DCAB710556BCBC5E24374B0054F3E273 /* Pods-LSTButton_Example.debug.xcconfig */,
-				FF714164C18CCCDCE54EF922364353D7 /* Pods-LSTButton_Example.release.xcconfig */,
+				31645AA8356954F9261A87EE2C11C37A /* Pods-LSTButton_Example-acknowledgements.markdown */,
+				6A7E8DB5D2742842B9F287D206477FDD /* Pods-LSTButton_Example-acknowledgements.plist */,
+				9CA7F233601AE3F52861A33E98C0435B /* Pods-LSTButton_Example-dummy.m */,
+				03806904B4F77D0C931B937F3E6AC887 /* Pods-LSTButton_Example.debug.xcconfig */,
+				C13CA250B34179BC2F8A640588BFA44E /* Pods-LSTButton_Example.release.xcconfig */,
 			);
 			name = "Pods-LSTButton_Example";
 			path = "Target Support Files/Pods-LSTButton_Example";
 			sourceTree = "<group>";
 		};
-		4FAE07995CD25344C1F5895ED424526C /* LSTControlEvents */ = {
+		0DDF10646CF1A72A38A7F580555CCABE /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				D38B81079D1F4D1D1526E4530BDFC8F2 /* LSTControlEvents.h */,
-				DC7DCFD3B1440F6F9AF434F31553E435 /* LSTControlEvents.m */,
+				A54A19DCF0BAE071679636351E80A01A /* UILabel+WY_RichText.h */,
+				EA84A440D8B9E0AFAF3C7CE3255DE2D0 /* UILabel+WY_RichText.m */,
+				A8618540D5D9B967B08896A226DC429F /* CALayer+LSTLayer */,
+				A2070B29E391B43CD7DF076FCB2539C3 /* LSTControlEvents */,
+				120E6CBDDFABD34F5701D6803B845490 /* LSTGestureEvents */,
+				EA2AE0099870A336BBF3D83B143C7FC3 /* NSObject+LSTObject */,
+				5FA437FB3A0FD0594D7848826E2A4398 /* NSString+LSTString */,
+				F7DF4A5B0C3055529CEFB74EF4517EC6 /* UIColor+LSTColor */,
+				97DEBF2FDCE1CEE93D8B6A90F503B07E /* UIFont+LSTFont */,
+				84A0E959DE5CAF33DEC6F8B8DA97DCB6 /* UIProgressView+LSTWebViewProgress */,
+				95050E996FB214076B7CFCA64912776E /* UIView+LSTView */,
 			);
-			name = LSTControlEvents;
-			path = LSTCategory/Classes/Code/LSTControlEvents;
+			name = Code;
 			sourceTree = "<group>";
 		};
-		58244CD9795B0C3EC4A1A6975351EA52 /* Support Files */ = {
+		120E6CBDDFABD34F5701D6803B845490 /* LSTGestureEvents */ = {
 			isa = PBXGroup;
 			children = (
-				9E7D68BB0A89D96EA32429FFAC6F39DF /* LSTButton.modulemap */,
-				704303734D6D1E0B08034418089D5675 /* LSTButton.xcconfig */,
-				405A0820E242626BBD6EB40CF5614ABB /* LSTButton-dummy.m */,
-				CE13F458D661497A6F28A551E5EC8173 /* LSTButton-Info.plist */,
-				94E03BEAEE7A26BCC97FB797B9723879 /* LSTButton-prefix.pch */,
-				6F0FAD0939B733B6A8A2DE944AA6B48F /* LSTButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LSTButton";
-			sourceTree = "<group>";
-		};
-		589DA5C6D93B439C969E039B5757E73D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6A155C670BA12FB32EFB6798F55900D /* LSTButton */,
-				D0745D7603446BE4B05FA78FBF04E87B /* LSTCategory */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		609EA804350683A4E939C00EB4BC3414 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1C89BCECC1A4B300D2E36A1C7417A3A1 /* LSTButton.framework */,
-				4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* LSTCategory.framework */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				EF45632A5EC595B46670ED89CB8FFBD5 /* Pods_LSTButton_Example.framework */,
-				D34DB525CEBEE6EA0632DB5CEF78B3A7 /* Pods_LSTButton_Tests.framework */,
-				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		63798C1FCB0379CD55F4613F9296D5AB /* LSTGestureEvents */ = {
-			isa = PBXGroup;
-			children = (
-				3CCEFD75451AC2B3E7C643839E58307C /* LSTGestureEvents.h */,
-				5B2A6EA0A3549B4C27E4E537A55D8151 /* LSTGestureEvents.m */,
+				D6C2773AB61D1E53E486EA4F45CB5CE8 /* LSTGestureEvents.h */,
+				560239C7A20D0C1514E8634D227B73EF /* LSTGestureEvents.m */,
 			);
 			name = LSTGestureEvents;
 			path = LSTCategory/Classes/Code/LSTGestureEvents;
 			sourceTree = "<group>";
 		};
-		677A77817289855601A21764C1C4637E /* Frameworks */ = {
+		1230F167C81879CAA776CF1BCCAE038A /* LSTCategory */ = {
 			isa = PBXGroup;
 			children = (
-				03ED3BE29FEC8D49C4F49D9D66F602AD /* LSTCategory.framework */,
-				D95C2264CC4E0D4000445D26F53583CE /* Masonry.framework */,
-				76FFABCB1AEE3D462567336914DFA7B1 /* YYModel.framework */,
-				B97839FEF40540EA64663809FB20D9B3 /* iOS */,
+				0DDF10646CF1A72A38A7F580555CCABE /* Code */,
+				5FB791EFA173B45FAEBF26B21AB78313 /* Pod */,
+				1C3EBB566C2F1F8FAF56729F3D45B8A6 /* Support Files */,
 			);
-			name = Frameworks;
+			name = LSTCategory;
+			path = /Users/losentrad/Desktop/KitNote/Modularization/LSTKit/LSTCategory/LSTCategory;
+			sourceTree = "<absolute>";
+		};
+		177B8040A65036EC0ABED3A0282ADE44 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				A508AABCE3B352F6851869F1632E4634 /* LSTButton.h */,
+				0112D1599B2D2BE333F5019D25043D58 /* LSTButton.m */,
+			);
+			name = Code;
 			sourceTree = "<group>";
 		};
-		782A1F711A85E9F18283243ED88423BE /* CALayer+LSTLayer */ = {
+		1C3EBB566C2F1F8FAF56729F3D45B8A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				00A72D181C5BE8AC1EF49885ED3D75A8 /* CALayer+LSTLayer.h */,
-				14205271D5C425EFAD995CC106066BCA /* CALayer+LSTLayer.m */,
-			);
-			name = "CALayer+LSTLayer";
-			path = "LSTCategory/Classes/Code/CALayer+LSTLayer";
-			sourceTree = "<group>";
-		};
-		7A45A073CB4067A8DA1A3E4059DFB73B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFB656254DA951B0B817BC7DE73DB3F8 /* YYModel.modulemap */,
-				5F70661C742AE45E823A856550734EA2 /* YYModel.xcconfig */,
-				E206BC883CE81603CDCC9DF158B9DBB8 /* YYModel-dummy.m */,
-				10021EB4C53E207404626295107490C2 /* YYModel-Info.plist */,
-				0CCDE71FEF95C11542D06832BDC8DB4E /* YYModel-prefix.pch */,
-				48D4B58BC3C57324D74D85CD8DEABA62 /* YYModel-umbrella.h */,
+				61C9125CF5CAD508DE8639AF185A4261 /* LSTCategory-dummy.m */,
+				42D06458120384B316008924E089EBBE /* LSTCategory-prefix.pch */,
+				766DDC51E6F95B86CBD942863F745FDF /* LSTCategory.debug.xcconfig */,
+				3EE48261B1455E7E20CAED2E5263ECC4 /* LSTCategory.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/YYModel";
+			path = "../../LSTButton/LSTButton/Example/Pods/Target Support Files/LSTCategory";
 			sourceTree = "<group>";
 		};
-		8A954B2F5EA0892A9F470BA72175FB88 /* Masonry */ = {
+		39391E6EADCA99B2689DF6AF16AB905A /* LSTButton */ = {
 			isa = PBXGroup;
 			children = (
-				4B317C6DB3D7AB968D13972F178461A6 /* MASCompositeConstraint.h */,
-				44C303C3A4FE43309F3AC9072314B8A1 /* MASCompositeConstraint.m */,
-				E5B610804B996CC2A0B2EC799652A89B /* MASConstraint.h */,
-				4F9C710EC0C6C56289B3397C56FC21DB /* MASConstraint.m */,
-				258CDDAB92B30FBF22B6E12361A8DCD1 /* MASConstraint+Private.h */,
-				473151D52EA0E0D7D85B4AB74DA255BC /* MASConstraintMaker.h */,
-				093E5A0938CB5EF6D087C14E01A26889 /* MASConstraintMaker.m */,
-				69FF25E536D7267D07390E650F2D9349 /* MASLayoutConstraint.h */,
-				E48095344FF548CFFCF1B0F64BFBAEEC /* MASLayoutConstraint.m */,
-				4FB3971B46FDDE1BA5D1E08133683DCC /* Masonry.h */,
-				0C6E9095370529B0C05CE6B66EB5899B /* MASUtilities.h */,
-				28F1D2F847BB77108D8A9AF563222567 /* MASViewAttribute.h */,
-				ECF5F7ACB97F52B7243E3A9E62C6E84C /* MASViewAttribute.m */,
-				6E174319ECF1C597614700B26E334E81 /* MASViewConstraint.h */,
-				4C71F7179D04D4B1DD8BDB638469633D /* MASViewConstraint.m */,
-				7CACB6E0CFF3479D043046C9A0098545 /* NSArray+MASAdditions.h */,
-				B1BC817ACFEBB325A914F959D8B94E28 /* NSArray+MASAdditions.m */,
-				0E7D4B6F79CB1D9F22B2A2D32B8EE10D /* NSArray+MASShorthandAdditions.h */,
-				E59217118EBE2B28F25C015CC123B0CC /* NSLayoutConstraint+MASDebugAdditions.h */,
-				7E62D13493F79DC4209F5BA3FBDE9D2C /* NSLayoutConstraint+MASDebugAdditions.m */,
-				34970D24F40983D3B4126BB1A71BA63D /* View+MASAdditions.h */,
-				27FF8698ADA309746B04E02570D3391F /* View+MASAdditions.m */,
-				C2491FC58618E2A45EC50AB188634793 /* View+MASShorthandAdditions.h */,
-				C2184646B166C9671D13C0C661B7CFEA /* ViewController+MASAdditions.h */,
-				D8EFF727E14F4081527E7D7F043B4926 /* ViewController+MASAdditions.m */,
-				24C9423852B10ABC6A4431530DC45494 /* Support Files */,
+				177B8040A65036EC0ABED3A0282ADE44 /* Code */,
+				C12E212C0F356B3BEDA3EE4DEC51E97D /* Pod */,
+				DF57D8E5F099726710B710FA1688B746 /* Support Files */,
 			);
-			name = Masonry;
-			path = Masonry;
+			name = LSTButton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		ABA4201A96B81B9145969C55B49F547D /* UIImage +LSTImage */ = {
+		4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				992DABE9E6BB230AA4A4A2C0E64C1713 /* UIImage+LSTImage.h */,
-				17AA32B64A1CF95DFF3A42EA61DE305A /* UIImage+LSTImage.m */,
+				16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */,
+				91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */,
+				72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */,
+				44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */,
 			);
-			name = "UIImage +LSTImage";
-			path = "LSTCategory/Classes/Code/UIImage +LSTImage";
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		AC99DCD4833936338426F829B2767262 /* YYModel */ = {
+		482474F14276C9E240422FAE42B6027B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C22A0CFE62025AFB053E75B471D569C /* NSObject+YYModel.h */,
-				90E58C84E6DF6B43F85654521A46684A /* NSObject+YYModel.m */,
-				452DE3354970F0B7EA13E086BD890F9D /* YYClassInfo.h */,
-				38728D25B16300E925B7D2E72EC178BB /* YYClassInfo.m */,
-				A921CE2A2DFAB5D7F5CA2E6C6F491111 /* YYModel.h */,
-				7A45A073CB4067A8DA1A3E4059DFB73B /* Support Files */,
+				1C89BCECC1A4B300D2E36A1C7417A3A1 /* libLSTButton.a */,
+				4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* libLSTCategory.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				EF45632A5EC595B46670ED89CB8FFBD5 /* libPods-LSTButton_Example.a */,
+				D34DB525CEBEE6EA0632DB5CEF78B3A7 /* libPods-LSTButton_Tests.a */,
 			);
-			name = YYModel;
-			path = YYModel;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B96EFA1F955C81A08F33D505DF807290 /* UIView+LSTView */ = {
+		589DA5C6D93B439C969E039B5757E73D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				88BBA99DF3FF867C2FA8D660ED6397D6 /* UIView+LSTView.h */,
-				389BA71EF4B78469EAEE8310B7350283 /* UIView+LSTView.m */,
+				39391E6EADCA99B2689DF6AF16AB905A /* LSTButton */,
+				1230F167C81879CAA776CF1BCCAE038A /* LSTCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5FA437FB3A0FD0594D7848826E2A4398 /* NSString+LSTString */ = {
+			isa = PBXGroup;
+			children = (
+				18D40A655F3BB54E727E877746280170 /* NSString+LSTString.h */,
+				CC7CD972A68F2AF76B0D7DE2FF373C2B /* NSString+LSTString.m */,
+			);
+			name = "NSString+LSTString";
+			path = "LSTCategory/Classes/Code/NSString+LSTString";
+			sourceTree = "<group>";
+		};
+		5FB791EFA173B45FAEBF26B21AB78313 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C14401B8557519E3EE7D1962F7A7B /* LICENSE */,
+				47A78963B3C3EEFAD546464537FDD587 /* LSTCategory.podspec */,
+				977E61BA6BE363F936CCBBAA3F5CE47C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84A0E959DE5CAF33DEC6F8B8DA97DCB6 /* UIProgressView+LSTWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F74C35B3A6A1690E4534EC115E95155B /* UIProgressView+LSTWebViewProgress.h */,
+				D3802144DB00E1A639F39BFC731CBE96 /* UIProgressView+LSTWebViewProgress.m */,
+			);
+			name = "UIProgressView+LSTWebViewProgress";
+			path = "LSTCategory/Classes/Code/UIProgressView+LSTWebViewProgress";
+			sourceTree = "<group>";
+		};
+		95050E996FB214076B7CFCA64912776E /* UIView+LSTView */ = {
+			isa = PBXGroup;
+			children = (
+				498A22393E6202CEA62E14DCA79AEA05 /* UIView+LSTView.h */,
+				68E3D42FE279F5819399B70F7F93AF1D /* UIView+LSTView.m */,
 			);
 			name = "UIView+LSTView";
 			path = "LSTCategory/Classes/Code/UIView+LSTView";
 			sourceTree = "<group>";
 		};
-		B97839FEF40540EA64663809FB20D9B3 /* iOS */ = {
+		97DEBF2FDCE1CEE93D8B6A90F503B07E /* UIFont+LSTFont */ = {
 			isa = PBXGroup;
 			children = (
-				B6991305C0B163CECED07C573DEEDC1E /* CoreFoundation.framework */,
-				5040DA38C156734DD4BC02DA5C906ED6 /* Foundation.framework */,
-				1B814CE199E43EC737AEAE697D347D68 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BC457201D07C40C3F369B5ED4B31457C /* UIFont+LSTFont */ = {
-			isa = PBXGroup;
-			children = (
-				B752BF20C4F52051DFBA0CB4126E5EDA /* UIFont+LSTFont.h */,
-				06A7C8D4543A813DC35DCD0D6EC8A9A4 /* UIFont+LSTFont.m */,
+				C7B9A138A6B8A9E27D90E2B32DD25681 /* UIFont+LSTFont.h */,
+				49DB39DB01A42B43343D15F623530191 /* UIFont+LSTFont.m */,
 			);
 			name = "UIFont+LSTFont";
 			path = "LSTCategory/Classes/Code/UIFont+LSTFont";
 			sourceTree = "<group>";
 		};
-		C2D4DDD10A45CBA4E8FAEE640DB468BF /* Targets Support Files */ = {
+		A2070B29E391B43CD7DF076FCB2539C3 /* LSTControlEvents */ = {
 			isa = PBXGroup;
 			children = (
-				49818F35B3629C362146797FEA87A0C0 /* Pods-LSTButton_Example */,
-				DCC2AD97BF37D2DF7FA370DC6704501B /* Pods-LSTButton_Tests */,
+				9478A3235863AD4AE7AD3E8510EA2023 /* LSTControlEvents.h */,
+				12EF28767341B37DCCAEFC5D640D0A77 /* LSTControlEvents.m */,
+			);
+			name = LSTControlEvents;
+			path = LSTCategory/Classes/Code/LSTControlEvents;
+			sourceTree = "<group>";
+		};
+		A8618540D5D9B967B08896A226DC429F /* CALayer+LSTLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF8400DDC190DE3645F8EE6B43F376 /* CALayer+LSTLayer.h */,
+				5D7177293892DF126A4949BAD1C47716 /* CALayer+LSTLayer.m */,
+			);
+			name = "CALayer+LSTLayer";
+			path = "LSTCategory/Classes/Code/CALayer+LSTLayer";
+			sourceTree = "<group>";
+		};
+		BA2A631D96F00D18FF5F1D2B051C4986 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0931D17A55677652C51CE029C2659A61 /* Pods-LSTButton_Example */,
+				E9A6029B9B525503EAB7D2279DBF8341 /* Pods-LSTButton_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C12E212C0F356B3BEDA3EE4DEC51E97D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6E74E2CE985F4EB273C9954F1EB97DFE /* LICENSE */,
+				B867FD458FF5DB8C364F8D26FC9A7EF6 /* LSTButton.podspec */,
+				F1158C045B9FEC3FB24F2925B1C88530 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -635,168 +448,160 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				589DA5C6D93B439C969E039B5757E73D /* Development Pods */,
-				677A77817289855601A21764C1C4637E /* Frameworks */,
-				F7AA768E127D7FF440AFD41E65D1114C /* Pods */,
-				609EA804350683A4E939C00EB4BC3414 /* Products */,
-				C2D4DDD10A45CBA4E8FAEE640DB468BF /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				482474F14276C9E240422FAE42B6027B /* Products */,
+				BA2A631D96F00D18FF5F1D2B051C4986 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D0745D7603446BE4B05FA78FBF04E87B /* LSTCategory */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28BF0F27285F49CB96CC02298A3BC1FF /* Code */,
-				4794597571D4FF71D5DD09019C9123C6 /* Pod */,
-				3B75E9F8B833255C202970A3D0D0D05E /* Support Files */,
 			);
-			name = LSTCategory;
-			path = /Users/losentrad/Desktop/KitNote/Modularization/LSTKit/LSTCategory/LSTCategory;
-			sourceTree = "<absolute>";
-		};
-		D23CE62D493AB58CC8C9EA40F73698EC /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				A730EE2889FAE2E87FE307C981E14915 /* LSTButton.h */,
-				AC66917BF06C41FF8C1287D86EF75AC7 /* LSTButton.m */,
-			);
-			name = Code;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DCC2AD97BF37D2DF7FA370DC6704501B /* Pods-LSTButton_Tests */ = {
+		DF57D8E5F099726710B710FA1688B746 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FBCD2F6C1C1FDA30233ED33A6C5DDAC3 /* Pods-LSTButton_Tests.modulemap */,
-				B4161B8579A6B1EB476BCB1404F4EAAB /* Pods-LSTButton_Tests-acknowledgements.markdown */,
-				917B147F5A2E6AEBEA174F62A4401994 /* Pods-LSTButton_Tests-acknowledgements.plist */,
-				8EE9CD92255835E340F5B18AC098BCBC /* Pods-LSTButton_Tests-dummy.m */,
-				9180A7B7AB16EB8ADD4D5D0C12A26554 /* Pods-LSTButton_Tests-Info.plist */,
-				F0D61686428DEC8642635321D85482CD /* Pods-LSTButton_Tests-umbrella.h */,
-				12A6867725524C1F38BC3268A388992F /* Pods-LSTButton_Tests.debug.xcconfig */,
-				7460AAEE4216846DC4605B0ACCBCF61F /* Pods-LSTButton_Tests.release.xcconfig */,
+				912D9C8398424CCCA554981DBC5F0E58 /* LSTButton-dummy.m */,
+				8F3D16B6683637AE3799A73EE97F34FE /* LSTButton-prefix.pch */,
+				852B73E95EB808D5CE4724DD78F8378B /* LSTButton.debug.xcconfig */,
+				8AEE237ED2F20526A2FA1F96839EDA7D /* LSTButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LSTButton";
+			sourceTree = "<group>";
+		};
+		E9A6029B9B525503EAB7D2279DBF8341 /* Pods-LSTButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D61515F74EFB5361C0D891869E501087 /* Pods-LSTButton_Tests-acknowledgements.markdown */,
+				BB4D478150191E8CD9602C0EDC7CB61F /* Pods-LSTButton_Tests-acknowledgements.plist */,
+				E703E523B776658909B39CE6B87CEE3E /* Pods-LSTButton_Tests-dummy.m */,
+				B7DF3BC1EA58C75D8CE3CDF3C301E722 /* Pods-LSTButton_Tests.debug.xcconfig */,
+				60D32EBBAA3D85D4854910D6302B16E5 /* Pods-LSTButton_Tests.release.xcconfig */,
 			);
 			name = "Pods-LSTButton_Tests";
 			path = "Target Support Files/Pods-LSTButton_Tests";
 			sourceTree = "<group>";
 		};
-		E6A155C670BA12FB32EFB6798F55900D /* LSTButton */ = {
+		EA2AE0099870A336BBF3D83B143C7FC3 /* NSObject+LSTObject */ = {
 			isa = PBXGroup;
 			children = (
-				D23CE62D493AB58CC8C9EA40F73698EC /* Code */,
-				2F130682278CAA5568BCD8FCC57E7210 /* Pod */,
-				58244CD9795B0C3EC4A1A6975351EA52 /* Support Files */,
+				FDC22374C5D1069E6809A038536E56E1 /* NSObject+LSTObject.h */,
+				8E94765799255ED3E834692E94AB2FD4 /* NSObject+LSTObject.m */,
 			);
-			name = LSTButton;
-			path = ../..;
+			name = "NSObject+LSTObject";
+			path = "LSTCategory/Classes/Code/NSObject+LSTObject";
 			sourceTree = "<group>";
 		};
-		E8A1D1F8B1C41BBD3EB0A52D15D9B848 /* NSString+LSTString */ = {
+		F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				88E08394F8210D246729FC5E9CD3D8CB /* NSString+LSTString.h */,
-				4BB22FD38EFA6F95121286ACE15EA3DB /* NSString+LSTString.m */,
+				558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */,
+				0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */,
+				411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */,
+				A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */,
+				D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */,
+				72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */,
+				935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */,
+				C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */,
+				AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */,
+				45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */,
+				5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */,
+				49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */,
+				7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */,
+				A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */,
+				2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */,
+				8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */,
+				6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */,
+				C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */,
+				AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */,
+				587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */,
+				370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */,
+				8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */,
+				553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */,
+				4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */,
 			);
-			name = "NSString+LSTString";
-			path = "LSTCategory/Classes/Code/NSString+LSTString";
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
-		EA9401A2A7CB5FBDC72A02B4D9BC8AF6 /* NSArray+LSTArray */ = {
+		F7DF4A5B0C3055529CEFB74EF4517EC6 /* UIColor+LSTColor */ = {
 			isa = PBXGroup;
 			children = (
-				AE5B264F2A2545B39DA71AF4758A314E /* NSArray+LSTArray.h */,
-				43553BAA59D110E881A3273B3DFA63BA /* NSArray+LSTArray.m */,
+				1601A4BA33DB8390B940DE2964386A7F /* UIColor+LSTColor.h */,
+				AB6EF7A5379508BC27A8868660579834 /* UIColor+LSTColor.m */,
 			);
-			name = "NSArray+LSTArray";
-			path = "LSTCategory/Classes/Code/NSArray+LSTArray";
-			sourceTree = "<group>";
-		};
-		F7AA768E127D7FF440AFD41E65D1114C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8A954B2F5EA0892A9F470BA72175FB88 /* Masonry */,
-				AC99DCD4833936338426F829B2767262 /* YYModel */,
-			);
-			name = Pods;
+			name = "UIColor+LSTColor";
+			path = "LSTCategory/Classes/Code/UIColor+LSTColor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5B743DD045F3B63A34D07E8C922E75C7 /* Headers */ = {
+		4A58D23D6C853AC2FB745EB78D98D278 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				405351C1C3B136B87AC273F3956C241D /* MASCompositeConstraint.h in Headers */,
-				9202251FA5E739563E73B2E9573D0193 /* MASConstraint+Private.h in Headers */,
-				B99FCB12922E0375C43FCE0A1C7C6C84 /* MASConstraint.h in Headers */,
-				7C8A2887D429A4A1CC3E584A785080E0 /* MASConstraintMaker.h in Headers */,
-				E15BEAD1BE082BE810FD252122C131D0 /* MASLayoutConstraint.h in Headers */,
-				06456C08C6FAF27618CC78DE779202E8 /* Masonry-umbrella.h in Headers */,
-				755C2B38E15F50D0298913E173DC94FC /* Masonry.h in Headers */,
-				37BF080778C92B8A5C13E923EFF50393 /* MASUtilities.h in Headers */,
-				398C6ED667C977C1573D67B8B49F0DD7 /* MASViewAttribute.h in Headers */,
-				E867B1C566B27618A71514F3E3BA0C80 /* MASViewConstraint.h in Headers */,
-				99C02C3B15C63DAF175CADE0BF70CBE6 /* NSArray+MASAdditions.h in Headers */,
-				B4793783A0D73349E402D50F663D7B3A /* NSArray+MASShorthandAdditions.h in Headers */,
-				08284625CBC897F2AA783525B861F090 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				6478DD59199340B67961BBD9327746FF /* View+MASAdditions.h in Headers */,
-				A51CF811A31E67AF654D8018A9DCB6D3 /* View+MASShorthandAdditions.h in Headers */,
-				35606757B8621F59FB711FC695698D7E /* ViewController+MASAdditions.h in Headers */,
+				E38BCD75DAA2B15430D1D6760FDE033B /* CALayer+LSTLayer.h in Headers */,
+				BCC0E5E2908152A48527EB059730742F /* LSTControlEvents.h in Headers */,
+				38CB64D251E39B2A2BC0CB9D4C40466D /* LSTGestureEvents.h in Headers */,
+				0C787998F97A56571B93D8FD1BA550B3 /* NSObject+LSTObject.h in Headers */,
+				7AC91292AE5307158F01A0312BE79BB8 /* NSString+LSTString.h in Headers */,
+				C02B3445013BD26FFF920529354C98EF /* UIColor+LSTColor.h in Headers */,
+				CD784CC6600447EB4FC64688E2C37993 /* UIFont+LSTFont.h in Headers */,
+				F6A256E521AA92362517F4137EB0146D /* UILabel+WY_RichText.h in Headers */,
+				2FE81E77FE4759DF964610F9C354B88F /* UIProgressView+LSTWebViewProgress.h in Headers */,
+				EB9B1BF54A62CAD2C6196EC9A8DB4F92 /* UIView+LSTView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		649399E1FE2F31258129A2EE222EDEA4 /* Headers */ = {
+		53909631323921E92EAE17EF64F02A05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48DA409732C540BD107042D7446BE02 /* LSTButton-umbrella.h in Headers */,
-				A18D7EC22AB12A2165F32C686CEDE2EA /* LSTButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9EECFEB348F87E5FE0D57BC1D84AE04 /* Headers */ = {
+		55EAD916BB0777244A09EC95B307D534 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73894F36D5F96F81CE36FB9798C43B88 /* Pods-LSTButton_Example-umbrella.h in Headers */,
+				F49EBC17907F5B5DC28392F5F13FD508 /* LSTButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE01F5DD917BEE3E229844A62EF66253 /* Headers */ = {
+		98CE3F4070AB8A161272BB6E7815D365 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F6F05DA27F6891B0009D7A68AB9797D /* CALayer+LSTLayer.h in Headers */,
-				A695795C86EA6AA15E951C073BCDEF91 /* LSTCategory-umbrella.h in Headers */,
-				D40DB7A38D07B9BD35F06FCCF1051C07 /* LSTControlEvents.h in Headers */,
-				DD4136FCCA6F5F129F184D38723617C1 /* LSTGestureEvents.h in Headers */,
-				DB143F4E3B89A4119CE95684FBEA7706 /* NSArray+LSTArray.h in Headers */,
-				BBEE85281D08FB73660C6E883AF8E7C2 /* NSObject+LSTObject.h in Headers */,
-				2229AB6B46C89BBFEE8D87E4BDCA0017 /* NSString+LSTString.h in Headers */,
-				96A8DD2B885303CEC0AE939C990C9D6D /* UIColor+LSTColor.h in Headers */,
-				48ADF5A5D9467C10D4506AEC394F7147 /* UIFont+LSTFont.h in Headers */,
-				EB122CD56AEFD407C0C41CDA879F0E2E /* UIImage+LSTImage.h in Headers */,
-				3D4DE4957D741B89275A6931550FA44E /* UILabel+WY_RichText.h in Headers */,
-				1F42DA6836E80B0A4BFA6534C8A496F8 /* UIProgressView+LSTWebViewProgress.h in Headers */,
-				5DDF8B19A3F9A7A555D821F35ADFCCA4 /* UIView+LSTView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2787EE8AD2C696A439DA29A24121640 /* Headers */ = {
+		9BFBFB9D811AC5582FB6F473BAC8AAEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD1C0269BEB1735EEF2E692EDF6A740 /* Pods-LSTButton_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4FBA4D45B2D510CD9A35D179CC02FCC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9813E4BFBE53EA21C2CFD2536E59836 /* NSObject+YYModel.h in Headers */,
-				246C34F8D5BD8D0053AC04E9A29181C2 /* YYClassInfo.h in Headers */,
-				FE97936F120EAB1D2FE0ECCAA29E95B0 /* YYModel-umbrella.h in Headers */,
-				0610E8E9DC73468FC9D2C89062262E7B /* YYModel.h in Headers */,
+				8A363262D80699E87402AADBB96A34F0 /* MASCompositeConstraint.h in Headers */,
+				F1981FCC975B426205ECC3A40CE0219A /* MASConstraint+Private.h in Headers */,
+				784C19F97ECECB67A7FAA28DFC28A90B /* MASConstraint.h in Headers */,
+				9233F1A05A0661C0D9B4DB1789468089 /* MASConstraintMaker.h in Headers */,
+				DC02B63BAA5692D24785B723619A309A /* MASLayoutConstraint.h in Headers */,
+				2ADAE7C992D912D750E01A3EF9B727D1 /* Masonry.h in Headers */,
+				C4D714D8CBFC6139882457A9BF93B87A /* MASUtilities.h in Headers */,
+				A2D5791A670EB0C2105650049FD57D89 /* MASViewAttribute.h in Headers */,
+				282D8C12F0FDE3D08BABD8ACE213903A /* MASViewConstraint.h in Headers */,
+				71905538C717F1EE80C8ECBD0D4C09DD /* NSArray+MASAdditions.h in Headers */,
+				942638CB40302AE9DF5F09CABCA12CD0 /* NSArray+MASShorthandAdditions.h in Headers */,
+				1EEAEEF4CABF91E41CFE450A3FB01A98 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				0A1C638E459E79973121DD5E2FA552A5 /* View+MASAdditions.h in Headers */,
+				6C46AA100B77EF3F1B37320C2BA7CADF /* View+MASShorthandAdditions.h in Headers */,
+				1D47AAC18EFE19172E85AA8E1B10F681 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,34 +610,31 @@
 /* Begin PBXNativeTarget section */
 		44D6F39377362F2A17863AC06265515F /* Pods-LSTButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D90496451F4BAAC62D82A933931C37B /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Example" */;
+			buildConfigurationList = 688F0F7A3B3037DE66AD87A953F19609 /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Example" */;
 			buildPhases = (
-				C9EECFEB348F87E5FE0D57BC1D84AE04 /* Headers */,
-				629C1713BD402347F49C0F34F2070B80 /* Sources */,
-				FEBEA7A33CC57F9C94D1B180E0D39DAA /* Frameworks */,
-				8D7093DCFB3A7FC0BE6A95E38D0DD8B7 /* Resources */,
+				53909631323921E92EAE17EF64F02A05 /* Headers */,
+				D8866B0A0A343C88B7AC9DBFB1400A32 /* Sources */,
+				35103BCAC08DE7ECD55AAAC90EFC92B8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1DE6D027F7DF484C71E6AB32FF4B43F /* PBXTargetDependency */,
-				4B27C30DBBFE05CBD9D78A13BF50A4DA /* PBXTargetDependency */,
-				03BA493BE92CEBF2FC91D0BD048FF7E9 /* PBXTargetDependency */,
-				5DC922F8128CA9CD33B00ACB7D2949E1 /* PBXTargetDependency */,
+				0FEDACBB26AC2F3907BE13718E6D044A /* PBXTargetDependency */,
+				923C68D1FE15E0845818A951A05B95C5 /* PBXTargetDependency */,
+				7C99A80080105C93108E0E24B1E1CCC0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LSTButton_Example";
 			productName = "Pods-LSTButton_Example";
-			productReference = EF45632A5EC595B46670ED89CB8FFBD5 /* Pods_LSTButton_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = EF45632A5EC595B46670ED89CB8FFBD5 /* libPods-LSTButton_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D68C0AAC5A88FC8F75669E0313415579 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 80A093B90118AF4B6C507D7C5FA7D034 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				5B743DD045F3B63A34D07E8C922E75C7 /* Headers */,
-				FA81BAD282362F5EA0DD8A400A7909AB /* Sources */,
-				2A82F31988427E36A0DB602714C25BBF /* Frameworks */,
-				68838AF792CBCFFBBFDF53D5CC363B21 /* Resources */,
+				9BFBFB9D811AC5582FB6F473BAC8AAEE /* Headers */,
+				CFFE3C6D1514459E77AF571258F003AB /* Sources */,
+				6D6E3E262904B024D462C60760AF8AA7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -840,84 +642,62 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		5E16785B2C18E8D00AED2C30C3FA4F9B /* Pods-LSTButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DDFE924D3CEE86CB848DC17A6E22508 /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Tests" */;
+			buildConfigurationList = 70FB20295615204F57DE4FDFC2885D6B /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Tests" */;
 			buildPhases = (
-				D2787EE8AD2C696A439DA29A24121640 /* Headers */,
-				AA9EB5451BAE6958409D6A662D94BE45 /* Sources */,
-				7423FE965F346788B4A7D45FA230DA9F /* Frameworks */,
-				412B113FD5DA8171BE58DA5F03864834 /* Resources */,
+				98CE3F4070AB8A161272BB6E7815D365 /* Headers */,
+				85CB6A7A3BA911D01DD2A711707F284F /* Sources */,
+				3FBE6021DC7071A107524890BADC1F23 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3CA0511F6E50DD53B3CF8B58F02E1315 /* PBXTargetDependency */,
+				57220BAA0301488FEB8F3808D54B9376 /* PBXTargetDependency */,
 			);
 			name = "Pods-LSTButton_Tests";
 			productName = "Pods-LSTButton_Tests";
-			productReference = D34DB525CEBEE6EA0632DB5CEF78B3A7 /* Pods_LSTButton_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D27692792364BB1749CBC6698D818965 /* Build configuration list for PBXNativeTarget "YYModel" */;
-			buildPhases = (
-				F4FBA4D45B2D510CD9A35D179CC02FCC /* Headers */,
-				0C697FDC5B56064E5E7E0D8D477597A2 /* Sources */,
-				F604EC6186D39D837310BF327120EA4D /* Frameworks */,
-				BA5D6C84ACBB90E625EA3D55BC4EAA47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYModel;
-			productName = YYModel;
-			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = D34DB525CEBEE6EA0632DB5CEF78B3A7 /* libPods-LSTButton_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		95632358D0525A520467DAAD7ECCA44A /* LSTCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E1AE1FB0BA3098AC8A7E2E2343D5C9 /* Build configuration list for PBXNativeTarget "LSTCategory" */;
+			buildConfigurationList = 81BF3A163AC2C9C56041392925D04556 /* Build configuration list for PBXNativeTarget "LSTCategory" */;
 			buildPhases = (
-				CE01F5DD917BEE3E229844A62EF66253 /* Headers */,
-				58E2BF3710CE56172163B2EA25ABE3C4 /* Sources */,
-				EF0DEC485C9292D28C4A8C2BA6FE8748 /* Frameworks */,
-				380FC892AB6375E0EC180C0787905F55 /* Resources */,
+				4A58D23D6C853AC2FB745EB78D98D278 /* Headers */,
+				0AD39E56BEDDBB40B90053D2608A14A7 /* Sources */,
+				8EDDB133E6C378EA8598EE42BD35A577 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3C47F12B4D8BA78AE18F62EA59BE8DE /* PBXTargetDependency */,
 			);
 			name = LSTCategory;
 			productName = LSTCategory;
-			productReference = 4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* LSTCategory.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* libLSTCategory.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		FA9BDC16575BA05DE0B00571BE9775DA /* LSTButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28182AA1BD4E3AE363CC89D5A597989C /* Build configuration list for PBXNativeTarget "LSTButton" */;
+			buildConfigurationList = D25A496857303F6AD495D7810CE0DFAD /* Build configuration list for PBXNativeTarget "LSTButton" */;
 			buildPhases = (
-				649399E1FE2F31258129A2EE222EDEA4 /* Headers */,
-				CC81D235D197AD9D34BF880C71CE5BFB /* Sources */,
-				106BF86F56A0822486F9ACC4AEF850F5 /* Frameworks */,
-				E38754515AAE6290F8EBA846F0C14374 /* Resources */,
+				55EAD916BB0777244A09EC95B307D534 /* Headers */,
+				F9C94CCF22407CB18CCF9B16E7F57D8A /* Sources */,
+				61EF851853BF30C17C707134669EFAD3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80CA951B24A858BA373A23843A04164A /* PBXTargetDependency */,
-				BE17078FFCF20FA3EF76DA536C9B4C8C /* PBXTargetDependency */,
+				B26B206A7CD3146F11291A80091BC942 /* PBXTargetDependency */,
+				AC344C5C21F74B7B3B5AB4025F237317 /* PBXTargetDependency */,
 			);
 			name = LSTButton;
 			productName = LSTButton;
-			productReference = 1C89BCECC1A4B300D2E36A1C7417A3A1 /* LSTButton.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 1C89BCECC1A4B300D2E36A1C7417A3A1 /* libLSTButton.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -937,7 +717,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 609EA804350683A4E939C00EB4BC3414 /* Products */;
+			productRefGroup = 482474F14276C9E240422FAE42B6027B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -946,248 +726,180 @@
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				44D6F39377362F2A17863AC06265515F /* Pods-LSTButton_Example */,
 				5E16785B2C18E8D00AED2C30C3FA4F9B /* Pods-LSTButton_Tests */,
-				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		380FC892AB6375E0EC180C0787905F55 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		412B113FD5DA8171BE58DA5F03864834 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68838AF792CBCFFBBFDF53D5CC363B21 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D7093DCFB3A7FC0BE6A95E38D0DD8B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA5D6C84ACBB90E625EA3D55BC4EAA47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E38754515AAE6290F8EBA846F0C14374 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0C697FDC5B56064E5E7E0D8D477597A2 /* Sources */ = {
+		0AD39E56BEDDBB40B90053D2608A14A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5711AF35220218F265A5EB1A53F9870E /* NSObject+YYModel.m in Sources */,
-				02A8311FABAA74897D03E1244C760B47 /* YYClassInfo.m in Sources */,
-				028C5CFFD486813EBA2F478552F33D75 /* YYModel-dummy.m in Sources */,
+				4D69DD35C5944E9041DE3EC716444659 /* CALayer+LSTLayer.m in Sources */,
+				86DCD04AEEE25B45E8152348919DB81F /* LSTCategory-dummy.m in Sources */,
+				94DF9BF2D0A7C2211B990B7FA26EC574 /* LSTControlEvents.m in Sources */,
+				2039E9450FED62B1EFAFC31AB5302980 /* LSTGestureEvents.m in Sources */,
+				EB7CE4F63A49EAE90A5D5642B659E04E /* NSObject+LSTObject.m in Sources */,
+				95BEE6306B84DAA2126512DC240D225A /* NSString+LSTString.m in Sources */,
+				40C8DB47DF634D5334AA9FD96F035894 /* UIColor+LSTColor.m in Sources */,
+				25A1033A45B8554A4C37A229AE8D4AA1 /* UIFont+LSTFont.m in Sources */,
+				E43B2AFBB0FE2A7B3178BBB963EA9A92 /* UILabel+WY_RichText.m in Sources */,
+				E1DDBDCFADC3F016DECBD7D177EA6315 /* UIProgressView+LSTWebViewProgress.m in Sources */,
+				67E2B1D99B171B82FCF3CDE292A63285 /* UIView+LSTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58E2BF3710CE56172163B2EA25ABE3C4 /* Sources */ = {
+		85CB6A7A3BA911D01DD2A711707F284F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4E3B6B031339C22BA3F3D7042502E7 /* CALayer+LSTLayer.m in Sources */,
-				F026D52FB796D8B75DE9AB345EB26EDE /* LSTCategory-dummy.m in Sources */,
-				61DC4D300EA9061AC7745A58F73767BB /* LSTControlEvents.m in Sources */,
-				132C13DD676F772554ACAF57ACAE923A /* LSTGestureEvents.m in Sources */,
-				CF68BD571A50997000EAECFEBF03038D /* NSArray+LSTArray.m in Sources */,
-				AFD6422562C185F607A3D7D14C0A320F /* NSObject+LSTObject.m in Sources */,
-				A490E2BB706799784C7673116F95F6F1 /* NSString+LSTString.m in Sources */,
-				81A5CA5A645E4F7DBF91C3EC3DE63DAF /* UIColor+LSTColor.m in Sources */,
-				F073547BA350F0BB872E8832A1AF6D36 /* UIFont+LSTFont.m in Sources */,
-				AE20EC845DD6EB60C57CCF39CE073493 /* UIImage+LSTImage.m in Sources */,
-				9B70091CDD4E6D4DC00715C862A26214 /* UILabel+WY_RichText.m in Sources */,
-				ECDE438A30A078453EE7D30DB64E1403 /* UIProgressView+LSTWebViewProgress.m in Sources */,
-				ACC552971F61B5D1B691761130DBB2B6 /* UIView+LSTView.m in Sources */,
+				C47A4AEE493ADD4A954E3CCAE2C43F61 /* Pods-LSTButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		629C1713BD402347F49C0F34F2070B80 /* Sources */ = {
+		CFFE3C6D1514459E77AF571258F003AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				974683E1C8E6D6CE62B7A5E9578C77F0 /* Pods-LSTButton_Example-dummy.m in Sources */,
+				3C1BDF7F547CA367F369C6E6570A99B2 /* MASCompositeConstraint.m in Sources */,
+				FB71D70F1B5D9887FE144C62F152B49C /* MASConstraint.m in Sources */,
+				69AFA301707D983BBD76659FAF2678AC /* MASConstraintMaker.m in Sources */,
+				D99275CB2551066E82C8B49D5F93C045 /* MASLayoutConstraint.m in Sources */,
+				9FA7B8B7393C891F3BE76BD2C799B117 /* Masonry-dummy.m in Sources */,
+				454F237D0048A72583EC44B738E734D9 /* MASViewAttribute.m in Sources */,
+				EA3AECD717E48BEF2A09E70FD734FD96 /* MASViewConstraint.m in Sources */,
+				F8DE2336E337D0E8359C28BC5D140DC5 /* NSArray+MASAdditions.m in Sources */,
+				B47A13019E1A7FDC50E60E9173FDFAE4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				029BB0A3F4822079B99BBD7EAE812092 /* View+MASAdditions.m in Sources */,
+				9715B6651E1C17C4C334C3DAE7127C74 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA9EB5451BAE6958409D6A662D94BE45 /* Sources */ = {
+		D8866B0A0A343C88B7AC9DBFB1400A32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9267C605A0B3AE1BE8A3CBABAFF04C /* Pods-LSTButton_Tests-dummy.m in Sources */,
+				1EDE51BF5FD7E9F5E1FB9DFEE0BDF81E /* Pods-LSTButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC81D235D197AD9D34BF880C71CE5BFB /* Sources */ = {
+		F9C94CCF22407CB18CCF9B16E7F57D8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8D0E01A27ADC6382546B39EFD28C556 /* LSTButton-dummy.m in Sources */,
-				4A39CB9635A08D645A013DE5440DD5EA /* LSTButton.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA81BAD282362F5EA0DD8A400A7909AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6F2F5A22E8F8B07C8E1BCD43C4DB521 /* MASCompositeConstraint.m in Sources */,
-				CFE691C1822E4326F4B5BCF3AEC7356A /* MASConstraint.m in Sources */,
-				132C0A5B353A317A667C810C2AC8E13E /* MASConstraintMaker.m in Sources */,
-				502C3A6211F98AB2278244E779A87AEB /* MASLayoutConstraint.m in Sources */,
-				6EFD76BF2C8D27D252EDCCF59B80ECAA /* Masonry-dummy.m in Sources */,
-				24136FB259ADE187C6BC287C24E16C89 /* MASViewAttribute.m in Sources */,
-				BEFEA1B264A4EA5FE7434D15B9843887 /* MASViewConstraint.m in Sources */,
-				3D4EC932C5DE83382B672D6004F0C0B2 /* NSArray+MASAdditions.m in Sources */,
-				484ED1E95C817CBDFB0ADB4406B7B3BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A9092FE1A7536B01C87C7981B2DDA624 /* View+MASAdditions.m in Sources */,
-				1E03C3EDAFCC9BFC0795AADCBB0CE1C0 /* ViewController+MASAdditions.m in Sources */,
+				BA6BAB6A92298C7CEEAC1343882F9DFA /* LSTButton-dummy.m in Sources */,
+				0B74B1A832B4CC8DE0C46D2A1FAE9E48 /* LSTButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03BA493BE92CEBF2FC91D0BD048FF7E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = BC83345D30716815C132DA96AED97ED9 /* PBXContainerItemProxy */;
-		};
-		3CA0511F6E50DD53B3CF8B58F02E1315 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LSTButton_Example";
-			target = 44D6F39377362F2A17863AC06265515F /* Pods-LSTButton_Example */;
-			targetProxy = 73E563B66254015D751273A1A43FFF1B /* PBXContainerItemProxy */;
-		};
-		4B27C30DBBFE05CBD9D78A13BF50A4DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LSTCategory;
-			target = 95632358D0525A520467DAAD7ECCA44A /* LSTCategory */;
-			targetProxy = 0597E81A022F7F1CC91475BB1B1A41A2 /* PBXContainerItemProxy */;
-		};
-		5DC922F8128CA9CD33B00ACB7D2949E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = A9295645DC12C3672A47D6C92715588C /* PBXContainerItemProxy */;
-		};
-		80CA951B24A858BA373A23843A04164A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LSTCategory;
-			target = 95632358D0525A520467DAAD7ECCA44A /* LSTCategory */;
-			targetProxy = C2DD1756B4C79D3251232E565E8857A4 /* PBXContainerItemProxy */;
-		};
-		BE17078FFCF20FA3EF76DA536C9B4C8C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 9EDDAD07EBE4BA9671155B091FE1A232 /* PBXContainerItemProxy */;
-		};
-		C1DE6D027F7DF484C71E6AB32FF4B43F /* PBXTargetDependency */ = {
+		0FEDACBB26AC2F3907BE13718E6D044A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LSTButton;
 			target = FA9BDC16575BA05DE0B00571BE9775DA /* LSTButton */;
-			targetProxy = 56D75E0CBA3F409B896DF8B4EFFB6E99 /* PBXContainerItemProxy */;
+			targetProxy = DDD13FA76D3889637850B34581F094E8 /* PBXContainerItemProxy */;
 		};
-		F3C47F12B4D8BA78AE18F62EA59BE8DE /* PBXTargetDependency */ = {
+		57220BAA0301488FEB8F3808D54B9376 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 74547CBF250AF68F8BEEE3FB9EFEC56C /* PBXContainerItemProxy */;
+			name = "Pods-LSTButton_Example";
+			target = 44D6F39377362F2A17863AC06265515F /* Pods-LSTButton_Example */;
+			targetProxy = F8F0F3CD2D98557A7FA7103B42CD24BC /* PBXContainerItemProxy */;
+		};
+		7C99A80080105C93108E0E24B1E1CCC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 4FD3F992BEB9F2A1E9B467FD19E66A1C /* PBXContainerItemProxy */;
+		};
+		923C68D1FE15E0845818A951A05B95C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LSTCategory;
+			target = 95632358D0525A520467DAAD7ECCA44A /* LSTCategory */;
+			targetProxy = 0A5BE55AFEC09A4D71717870FAA4271C /* PBXContainerItemProxy */;
+		};
+		AC344C5C21F74B7B3B5AB4025F237317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 53C20837ED94995ACD409CCD05B31FAB /* PBXContainerItemProxy */;
+		};
+		B26B206A7CD3146F11291A80091BC942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LSTCategory;
+			target = 95632358D0525A520467DAAD7ECCA44A /* LSTCategory */;
+			targetProxy = BAF32B140D0CB80E31E1266534C00934 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04C934B05C1954F127A69C515F7A4B3E /* Debug */ = {
+		01D034C379FD83A256073E7A7BC13FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCAB710556BCBC5E24374B0054F3E273 /* Pods-LSTButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 60D32EBBAA3D85D4854910D6302B16E5 /* Pods-LSTButton_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		48AD9AF9B8387B71B1DB6E0FF2152EEF /* Release */ = {
+		0ECC412AFAC5BCD5F1094022116FA2F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E67298076649D690553F101EAAE448 /* LSTCategory.xcconfig */;
+			baseConfigurationReference = 03806904B4F77D0C931B937F3E6AC887 /* Pods-LSTButton_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTCategory/LSTCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTCategory/LSTCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTCategory/LSTCategory.modulemap";
-				PRODUCT_MODULE_NAME = LSTCategory;
-				PRODUCT_NAME = LSTCategory;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A278D2038A4E5E3E8A806107AD06A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1249,101 +961,27 @@
 			};
 			name = Release;
 		};
-		513B7CC0CBA2475DA976E4687BBB9F46 /* Release */ = {
+		778B033626D5B3546037C735991CBC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF714164C18CCCDCE54EF922364353D7 /* Pods-LSTButton_Example.release.xcconfig */;
+			baseConfigurationReference = 852B73E95EB808D5CE4724DD78F8378B /* LSTButton.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTButton/LSTButton-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		57DEE471D56BDF035C8C3AA201B7AADF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12A6867725524C1F38BC3268A388992F /* Pods-LSTButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6B8A42C36F61E075569CDD4F5C2861B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E67298076649D690553F101EAAE448 /* LSTCategory.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTCategory/LSTCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTCategory/LSTCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTCategory/LSTCategory.modulemap";
-				PRODUCT_MODULE_NAME = LSTCategory;
-				PRODUCT_NAME = LSTCategory;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LSTButton;
+				PRODUCT_NAME = LSTButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1411,259 +1049,151 @@
 			};
 			name = Debug;
 		};
-		84ACCCBCA7E463FF04C8DED37C5BD720 /* Release */ = {
+		85102E62043E45688812B178F73F04FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 704303734D6D1E0B08034418089D5675 /* LSTButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTButton/LSTButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTButton/LSTButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTButton/LSTButton.modulemap";
-				PRODUCT_MODULE_NAME = LSTButton;
-				PRODUCT_NAME = LSTButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		95BF594639C9993B2CF641FB9B93924A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F70661C742AE45E823A856550734EA2 /* YYModel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9B57307622F6A8CCCBADBD4D88591C24 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7460AAEE4216846DC4605B0ACCBCF61F /* Pods-LSTButton_Tests.release.xcconfig */;
+			baseConfigurationReference = C13CA250B34179BC2F8A640588BFA44E /* Pods-LSTButton_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B117D438AD733C1C9F866C84274B604B /* Debug */ = {
+		9BCCD39B5C9224AFAF6D142CDB18AA9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 704303734D6D1E0B08034418089D5675 /* LSTButton.xcconfig */;
+			baseConfigurationReference = 3EE48261B1455E7E20CAED2E5263ECC4 /* LSTCategory.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTButton/LSTButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTButton/LSTButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTCategory/LSTCategory-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTButton/LSTButton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LSTCategory;
+				PRODUCT_NAME = LSTCategory;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3BE7C70968BE8D36215A181206F01B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEE237ED2F20526A2FA1F96839EDA7D /* LSTButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTButton/LSTButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = LSTButton;
 				PRODUCT_NAME = LSTButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C8453B1BB6D92B7986EB2A5ABDBEB5E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899274BF626FC7155B2F7115E6DD1553 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D5EF3D662D5EADEFAAE7069CCCAFDE69 /* Debug */ = {
+		DFD3D027CD9DE9C5B6367842C4A12E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899274BF626FC7155B2F7115E6DD1553 /* Masonry.xcconfig */;
+			baseConfigurationReference = B7DF3BC1EA58C75D8CE3CDF3C301E722 /* Pods-LSTButton_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F845325B1A767CF2F3B837DD9CA14CCC /* Debug */ = {
+		F1B005CFE0E02C9B67F6085779A96794 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F70661C742AE45E823A856550734EA2 /* YYModel.xcconfig */;
+			baseConfigurationReference = 766DDC51E6F95B86CBD942863F745FDF /* LSTCategory.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTCategory/LSTCategory-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LSTCategory;
+				PRODUCT_NAME = LSTCategory;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		FA0A75FE69F90331CE1AB1624DC3680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E1AE1FB0BA3098AC8A7E2E2343D5C9 /* Build configuration list for PBXNativeTarget "LSTCategory" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B8A42C36F61E075569CDD4F5C2861B3 /* Debug */,
-				48AD9AF9B8387B71B1DB6E0FF2152EEF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D90496451F4BAAC62D82A933931C37B /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04C934B05C1954F127A69C515F7A4B3E /* Debug */,
-				513B7CC0CBA2475DA976E4687BBB9F46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28182AA1BD4E3AE363CC89D5A597989C /* Build configuration list for PBXNativeTarget "LSTButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B117D438AD733C1C9F866C84274B604B /* Debug */,
-				84ACCCBCA7E463FF04C8DED37C5BD720 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1673,29 +1203,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DDFE924D3CEE86CB848DC17A6E22508 /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Tests" */ = {
+		688F0F7A3B3037DE66AD87A953F19609 /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57DEE471D56BDF035C8C3AA201B7AADF /* Debug */,
-				9B57307622F6A8CCCBADBD4D88591C24 /* Release */,
+				0ECC412AFAC5BCD5F1094022116FA2F9 /* Debug */,
+				85102E62043E45688812B178F73F04FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27692792364BB1749CBC6698D818965 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+		70FB20295615204F57DE4FDFC2885D6B /* Build configuration list for PBXNativeTarget "Pods-LSTButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F845325B1A767CF2F3B837DD9CA14CCC /* Debug */,
-				95BF594639C9993B2CF641FB9B93924A /* Release */,
+				DFD3D027CD9DE9C5B6367842C4A12E7B /* Debug */,
+				01D034C379FD83A256073E7A7BC13FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D68C0AAC5A88FC8F75669E0313415579 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		80A093B90118AF4B6C507D7C5FA7D034 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5EF3D662D5EADEFAAE7069CCCAFDE69 /* Debug */,
-				C8453B1BB6D92B7986EB2A5ABDBEB5E9 /* Release */,
+				18A278D2038A4E5E3E8A806107AD06A7 /* Debug */,
+				FA0A75FE69F90331CE1AB1624DC3680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BF3A163AC2C9C56041392925D04556 /* Build configuration list for PBXNativeTarget "LSTCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B005CFE0E02C9B67F6085779A96794 /* Debug */,
+				9BCCD39B5C9224AFAF6D142CDB18AA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25A496857303F6AD495D7810CE0DFAD /* Build configuration list for PBXNativeTarget "LSTButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778B033626D5B3546037C735991CBC60 /* Debug */,
+				C3BE7C70968BE8D36215A181206F01B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

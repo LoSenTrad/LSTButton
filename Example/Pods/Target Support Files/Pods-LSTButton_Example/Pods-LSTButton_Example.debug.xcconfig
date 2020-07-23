@@ -1,8 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LSTButton" "${PODS_CONFIGURATION_BUILD_DIR}/LSTCategory" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LSTButton/LSTButton.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LSTCategory/LSTCategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers"
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "CoreFoundation" -framework "Foundation" -framework "LSTButton" -framework "LSTCategory" -framework "Masonry" -framework "UIKit" -framework "YYModel"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LSTButton" "${PODS_ROOT}/Headers/Public/LSTCategory" "${PODS_ROOT}/Headers/Public/Masonry"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LSTButton" "${PODS_CONFIGURATION_BUILD_DIR}/LSTCategory" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"LSTButton" -l"LSTCategory" -l"Masonry" -framework "Foundation" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

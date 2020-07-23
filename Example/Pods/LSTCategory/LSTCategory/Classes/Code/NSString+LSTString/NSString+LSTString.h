@@ -4,7 +4,7 @@
 //
 //  Created by LoSenTrad on 2017/7/11.
 //  Copyright © 2017年 dongyu. All rights reserved.
-//
+// 0.1.12231756
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -57,7 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** string类型转URL类型 */
 
 - (nonnull NSURL *)stringToURL;
-/** 根据字符串获取宽度 (不适合富文本) */
+/** 根据字符串获取宽度 (不适合富文本)(修改标记) */
 - (CGFloat)getWidthWithFont:(UIFont *)font;
 /** 根据字符串获取高度(不适合富文本) */
 - (CGFloat)getHeightWithFont:(UIFont *)font andWidth:(CGFloat)width;

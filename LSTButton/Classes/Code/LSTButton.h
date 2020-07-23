@@ -49,9 +49,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /** 添加点击事件 */
-- (void)lst_addEventTouchUpInsideBlock:(LSTButtonActionBlock)actionBlock;
-/** 添加UIControlEvents时间 */
-- (void)lst_addTargetWithEvent:(UIControlEvents)event andActionBlock:(LSTButtonActionBlock)actionBlock;
+//- (void)lst_addEventTouchUpInsideBlock:(LSTButtonActionBlock)actionBlock;
+///** 添加UIControlEvents时间 */
+//- (void)lst_addTargetWithEvent:(UIControlEvents)event andActionBlock:(LSTButtonActionBlock)actionBlock;
+
+//添加手势而不是UIControlEvents
+- (void)lst_addClickEventBlock:(LSTButtonActionBlock)actionBlock;
 
 
 

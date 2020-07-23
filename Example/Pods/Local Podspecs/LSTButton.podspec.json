@@ -1,6 +1,6 @@
 {
   "name": "LSTButton",
-  "version": "0.1.12231705",
+  "version": "0.1.12311754",
   "summary": "A short description of LSTButton.",
   "description": "LSTButtonLSTButtonLSTButtonLSTButtonLSTButtonLSTButton",
   "homepage": "https://github.com/LoSenTrad/LSTButton.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LoSenTrad/LSTButton.git",
-    "tag": "0.1.12231705"
+    "tag": "0.1.12311754"
   },
   "platforms": {
     "ios": "8.0"

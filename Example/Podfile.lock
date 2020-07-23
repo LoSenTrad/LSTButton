@@ -1,18 +1,15 @@
 PODS:
-  - LSTButton (0.1.12231705):
-    - LSTButton/Code (= 0.1.12231705)
+  - LSTButton (0.1.12311754):
+    - LSTButton/Code (= 0.1.12311754)
     - LSTCategory
     - Masonry
-  - LSTButton/Code (0.1.12231705):
+  - LSTButton/Code (0.1.12311754):
     - LSTCategory
     - Masonry
-  - LSTCategory (0.1.12231756):
-    - LSTCategory/Code (= 0.1.12231756)
-    - YYModel
-  - LSTCategory/Code (0.1.12231756):
-    - YYModel
+  - LSTCategory (0.2.04281546):
+    - LSTCategory/Code (= 0.2.04281546)
+  - LSTCategory/Code (0.2.04281546)
   - Masonry (1.1.0)
-  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - LSTButton (from `../`)
@@ -22,7 +19,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Masonry
-    - YYModel
 
 EXTERNAL SOURCES:
   LSTButton:
@@ -31,11 +27,10 @@ EXTERNAL SOURCES:
     :path: "/Users/losentrad/Desktop/KitNote/Modularization/LSTKit/LSTCategory/LSTCategory"
 
 SPEC CHECKSUMS:
-  LSTButton: c0c1492c552253e5638b935eea67ecaa62af8b0e
-  LSTCategory: 49aa00270b1fdb4694a026d5b710b24a0ab687be
+  LSTButton: 1886816af63bb1d90986e0fdf8b7dcab57c8fcf8
+  LSTCategory: f70d240021080d1c4ab555b6129e74f5b0aa4ccb
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 225242669e1aa3fee71a0ce57876bc4d59ad6a9e
+PODFILE CHECKSUM: 683332fe652a4385ac3d06c0756564dfddd9313a
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

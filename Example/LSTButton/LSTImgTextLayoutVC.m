@@ -69,11 +69,13 @@
 //    self.btnView.layer.cornerRadius = 25;
 //    self.btnView.layer.masksToBounds = YES;
     
-    [self.btnView lst_addEventTouchUpInsideBlock:^(id sender) {
+//    [self.btnView lst_addEventTouchUpInsideBlock:^(id sender) {
+//        NSLog(@"点击了按钮");
+//    }];
+    
+    [self.btnView lst_addClickEventBlock:^(id sender) {
         NSLog(@"点击了按钮");
     }];
-    
-    
 }
 
 

@@ -23,32 +23,50 @@ static char LSTActionTouchUpInsideEventKey;
 @implementation LSTButton
 
 /** 添加点击事件 */
-- (void)lst_addEventTouchUpInsideBlock:(LSTButtonActionBlock)actionBlock {
-    objc_setAssociatedObject(self, &LSTActionTouchUpInsideEventKey, actionBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
-    [self addTarget:self action:@selector(clickActionBlock:) forControlEvents:UIControlEventTouchUpInside];
+//- (void)lst_addEventTouchUpInsideBlock:(LSTButtonActionBlock)actionBlock {
+//    objc_setAssociatedObject(self, &LSTActionTouchUpInsideEventKey, actionBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+//    [self addTarget:self action:@selector(clickActionBlock:) forControlEvents:UIControlEventTouchUpInside];
+//}
+//
+//- (void)clickActionBlock:(UIButton *)sender {
+//    LSTButtonActionBlock actionBlock = (LSTButtonActionBlock)objc_getAssociatedObject(self, &LSTActionTouchUpInsideEventKey);
+//    if (actionBlock) {
+//        actionBlock(sender);
+//    }
+//}
+//
+//- (void)lst_addTargetWithEvent:(UIControlEvents)event
+//                andActionBlock:(LSTButtonActionBlock)actionBlock {
+//    objc_setAssociatedObject(self, &LSTActionEventKey, actionBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+//    [self addTarget:self action:@selector(callActionBlock:) forControlEvents:event];
+//}
+//
+//
+//
+//- (void)callActionBlock:(id)sender{
+//    LSTButtonActionBlock actionBlock = (LSTButtonActionBlock)objc_getAssociatedObject(self, &LSTActionEventKey);
+//    if (actionBlock){
+//        actionBlock(self);
+//    }
+//}
+
+- (void)lst_addClickEventBlock:(LSTButtonActionBlock)actionBlock {
+    
+    objc_setAssociatedObject(self, &LSTActionEventKey, actionBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickActionBlock:)];
+    
+    [self addGestureRecognizer:tap];
+    
 }
 
 - (void)clickActionBlock:(UIButton *)sender {
-    LSTButtonActionBlock actionBlock = (LSTButtonActionBlock)objc_getAssociatedObject(self, &LSTActionTouchUpInsideEventKey);
-    if (actionBlock) {
-        actionBlock(sender);
-    }
-}
-
-- (void)lst_addTargetWithEvent:(UIControlEvents)event
-                andActionBlock:(LSTButtonActionBlock)actionBlock {
-    objc_setAssociatedObject(self, &LSTActionEventKey, actionBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
-    [self addTarget:self action:@selector(callActionBlock:) forControlEvents:event];
-}
-
-
-
-- (void)callActionBlock:(id)sender{
     LSTButtonActionBlock actionBlock = (LSTButtonActionBlock)objc_getAssociatedObject(self, &LSTActionEventKey);
     if (actionBlock){
         actionBlock(self);
     }
+    
 }
+
 
 #pragma mark - ***** 初始化 *****
 
@@ -110,9 +128,9 @@ static char LSTActionTouchUpInsideEventKey;
 
     
     
-    [self addTarget:self action:@selector(pressedEvent:) forControlEvents:UIControlEventTouchDown];
-    [self addTarget:self action:@selector(unpressedEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
-    
+//    [self addTarget:self action:@selector(pressedEvent:) forControlEvents:UIControlEventTouchDown];
+//    [self addTarget:self action:@selector(unpressedEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
+//    
     
 }
 

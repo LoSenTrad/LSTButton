@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190B8EF9B6A782D6CA8C2885 /* libPods-LSTButton_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6D219A2C786A40CCCEB5BE /* libPods-LSTButton_Tests.a */; };
 		31ADC80E233CA2FF00E13E4B /* UIView+GLDragBlast.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADC80D233CA2FF00E13E4B /* UIView+GLDragBlast.m */; };
 		31ADC814233CAF1000E13E4B /* LSTBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADC812233CAF1000E13E4B /* LSTBadgeView.m */; };
 		31F36A1423B3B5EE00DDBC69 /* NSString+LSTString.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F36A1323B3B5EE00DDBC69 /* NSString+LSTString.m */; };
 		31F36A1923B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F36A1723B9DEDA00DDBC69 /* LSTImgTextLayoutVC.m */; };
 		31F36A1A23B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F36A1823B9DEDA00DDBC69 /* LSTImgTextLayoutVC.xib */; };
+		554A917696EF880CC37AF8DC /* libPods-LSTButton_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFDA9E65FD747A7F6AB827C /* libPods-LSTButton_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,8 +29,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9707239DDB9063FAFB64BEC0 /* Pods_LSTButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9B6FA69622C22CB2D84920 /* Pods_LSTButton_Tests.framework */; };
-		9B210DD038A8DFBDDD40E038 /* Pods_LSTButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FA7C789DD6014F3E1E2FD7 /* Pods_LSTButton_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E9B6FA69622C22CB2D84920 /* Pods_LSTButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSTButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6D219A2C786A40CCCEB5BE /* libPods-LSTButton_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTButton_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFDA9E65FD747A7F6AB827C /* libPods-LSTButton_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTButton_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C841FDA46C76ED1A9CB60B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2DB352FDB0E846D6A78CF744 /* Pods-LSTButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		31ADC80C233CA2FF00E13E4B /* UIView+GLDragBlast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GLDragBlast.h"; sourceTree = "<group>"; };
@@ -57,7 +58,7 @@
 		35ABB8CD478FC3FE70471A63 /* LSTButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSTButton.podspec; path = ../LSTButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4529438AEFA28E9E902875D8 /* Pods-LSTButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LSTButton_Tests/Pods-LSTButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		51864B5B6A4F277CC2784076 /* Pods-LSTButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* LSTButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* LSTButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -77,7 +78,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81FA7C789DD6014F3E1E2FD7 /* Pods_LSTButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSTButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C74BD718BFD558758413B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0B52D730CAFA8C4BCAB0339 /* Pods-LSTButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTButton_Example.release.xcconfig"; path = "Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9B210DD038A8DFBDDD40E038 /* Pods_LSTButton_Example.framework in Frameworks */,
+				554A917696EF880CC37AF8DC /* libPods-LSTButton_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9707239DDB9063FAFB64BEC0 /* Pods_LSTButton_Tests.framework in Frameworks */,
+				190B8EF9B6A782D6CA8C2885 /* libPods-LSTButton_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* LSTButton_Example.app */,
+				6003F58A195388D20070C39A /* LSTButton.app */,
 				6003F5AE195388D20070C39A /* LSTButton_Tests.xctest */,
 			);
 			name = Products;
@@ -147,8 +147,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				81FA7C789DD6014F3E1E2FD7 /* Pods_LSTButton_Example.framework */,
-				1E9B6FA69622C22CB2D84920 /* Pods_LSTButton_Tests.framework */,
+				1BFDA9E65FD747A7F6AB827C /* libPods-LSTButton_Example.a */,
+				1B6D219A2C786A40CCCEB5BE /* libPods-LSTButton_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,7 +238,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6F5C295D7B3E807D21A50CE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,7 +245,7 @@
 			);
 			name = LSTButton_Example;
 			productName = LSTButton;
-			productReference = 6003F58A195388D20070C39A /* LSTButton_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* LSTButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* LSTButton_Tests */ = {
@@ -279,7 +278,7 @@
 				ORGANIZATIONNAME = "490790096@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = F8DZH6Y62F;
+						DevelopmentTeam = 9TV887Q275;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -350,30 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6F5C295D7B3E807D21A50CE5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LSTButton/LSTButton.framework",
-				"${BUILT_PRODUCTS_DIR}/LSTCategory/LSTCategory.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTButton.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTCategory.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LSTButton_Example/Pods-LSTButton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F65661206DB9F11EF183907D /* [CP] Check Pods Manifest.lock */ = {
@@ -539,13 +514,13 @@
 			baseConfigurationReference = 51864B5B6A4F277CC2784076 /* Pods-LSTButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F8DZH6Y62F;
+				DEVELOPMENT_TEAM = 9TV887Q275;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LSTButton/LSTButton-Prefix.pch";
 				INFOPLIST_FILE = "LSTButton/LSTButton-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LSTButton;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -556,13 +531,13 @@
 			baseConfigurationReference = C0B52D730CAFA8C4BCAB0339 /* Pods-LSTButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F8DZH6Y62F;
+				DEVELOPMENT_TEAM = 9TV887Q275;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LSTButton/LSTButton-Prefix.pch";
 				INFOPLIST_FILE = "LSTButton/LSTButton-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LSTButton;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
