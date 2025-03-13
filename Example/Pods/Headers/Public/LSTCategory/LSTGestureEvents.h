@@ -1,1 +1,1 @@
-../../../../../../../LSTCategory/LSTCategory/LSTCategory/Classes/Code/LSTGestureEvents/LSTGestureEvents.h
+../../../LSTCategory/LSTCategory/Classes/Code/LSTGestureEvents/LSTGestureEvents.h

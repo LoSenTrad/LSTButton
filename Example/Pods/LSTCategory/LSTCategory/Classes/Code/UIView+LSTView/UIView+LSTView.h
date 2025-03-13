@@ -56,13 +56,22 @@ CGFloat LSTAutoWidth(CGFloat width);
 /** 获取相对屏幕的高度 */
 CGFloat LSTAutoHeight(CGFloat height);
 /** 获取相对指定view的宽度 */
-CGFloat LSTAutoWidthForView(CGFloat width,UIView *tagView);
+CGFloat LSTAutoWidthForView(CGFloat width, UIView *tagView);
 /** 获取相对指定view的高度 */
-CGFloat LSTAutoHeightForView(CGFloat height,UIView *tagView);
+CGFloat LSTAutoHeightForView(CGFloat height, UIView *tagView);
+
+/** 快捷创建CGRect  */
+CGRect LSTRect(CGFloat x ,CGFloat y, CGFloat w, CGFloat h);
+/** 快捷创建CGSize */
+CGSize LSTSize(CGFloat w ,CGFloat h);
 
 static inline CGSize QTSizeMake(CGFloat width, CGFloat height);
 static inline CGPoint QTPointMake(CGFloat x, CGFloat y);
 static inline CGRect QTRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat height);
+
+
+/** 是否是Ipad */
+BOOL lst_IsIPad();
 
 /** 是否是苹果X */
 BOOL lst_IsIphoneX();
@@ -72,6 +81,20 @@ BOOL lst_IsIphoneXR();
 BOOL lst_IsIphoneXS();
 /** 是否是苹果XS_Max */
 BOOL lst_IsIphoneXS_Max();
+/** 是否是苹果11 */
+BOOL lst_IsIphone11();
+/** 是否是苹果11_Pro  */
+BOOL lst_IsIphone11_Pro();
+/** 是否是苹果11_Pro_Max */
+BOOL lst_IsIphone11_Pro_Max();
+/** 是否是苹果12_Mini */
+BOOL lst_IsIphone12_Mini();
+/** 是否是苹果12 */
+BOOL lst_IsIphone12();
+/** 是否是苹果12_Pro */
+BOOL lst_IsIphone12_Pro();
+/** 是否是苹果12_Pro_Max */
+BOOL lst_IsIphone12_Pro_Max();
 /** 是否是苹果X系列(刘海屏系列) */
 BOOL lst_IsIphoneX_ALL();
 /** 状态栏高度 X:44 非X:20 */

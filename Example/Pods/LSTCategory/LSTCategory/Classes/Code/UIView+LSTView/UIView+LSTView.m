@@ -211,6 +211,17 @@ CGRect LSTScreenBounds() {
     return bounds;
 }
 
+/** 快捷创建CGRect  */
+CGRect LSTRect(CGFloat x ,CGFloat y, CGFloat w, CGFloat h) {
+    return CGRectMake(x, y, w, h);
+}
+/** 快捷创建CGSize */
+CGSize LSTSize(CGFloat w ,CGFloat h) {
+    return CGSizeMake(w, h);
+}
+
+
+
 #define widthRatio(_f_) (_f_) * LSTScreenWidth()
 
 static inline CGSize QTSizeMake(CGFloat width, CGFloat height){
@@ -228,13 +239,23 @@ static inline CGRect QTRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat hei
     return rect;
 }
 
+/** 是否是Ipad */
+BOOL lst_IsIPad() {
+    NSString *deviceType = [UIDevice currentDevice].model;
+    if([deviceType isEqualToString:@"iPad"]) {
+        return YES;
+    }
+        return NO;
+}
+
+
 /** 是否是苹果X */
 BOOL lst_IsIphoneX() {
     return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO);
 }
 /** 是否是苹果XR */
 BOOL lst_IsIphoneXR() {
-    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1624), [[UIScreen mainScreen] currentMode].size) : NO);
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO);
 }
 /** 是否是苹果XS */
 BOOL lst_IsIphoneXS() {
@@ -244,14 +265,43 @@ BOOL lst_IsIphoneXS() {
 BOOL lst_IsIphoneXS_Max() {
     return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size): NO);
 }
+/** 是否是苹果11 */
+BOOL lst_IsIphone11()  {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO);
+}
+/** 是否是苹果11_Pro  */
+BOOL lst_IsIphone11_Pro() {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO);
+}
+/** 是否是苹果11_Pro_Max */
+BOOL lst_IsIphone11_Pro_Max() {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO);
+}
+/** 是否是苹果12_Mini */
+BOOL lst_IsIphone12_Mini() {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1080, 2340), [[UIScreen mainScreen] currentMode].size) : NO);
+}
+/** 是否是苹果12 */
+BOOL lst_IsIphone12() {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1170, 2532), [[UIScreen mainScreen] currentMode].size) : NO);
+}
+/** 是否是苹果12_Pro */
+BOOL lst_IsIphone12_Pro() {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1170, 2532), [[UIScreen mainScreen] currentMode].size) : NO);
+}
+/** 是否是苹果12_Pro_Max */
+BOOL lst_IsIphone12_Pro_Max() {
+    return ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1284, 2778), [[UIScreen mainScreen] currentMode].size) : NO);
+}
 /** 是否是苹果X系列(刘海屏系列) */
 BOOL lst_IsIphoneX_ALL() {
-    return (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), LSTScreenSize())|| CGSizeEqualToSize(CGSizeMake(812.f, 375.f), LSTScreenSize())  || CGSizeEqualToSize(CGSizeMake(414.f, 896.f), LSTScreenSize()) || CGSizeEqualToSize(CGSizeMake(896.f, 414.f), LSTScreenSize()));
-    //或者以下方法判断
-//    BOOL isPhoneX = NO;
-//        if (@available(iOS 11.0, *)) {
-//            isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
-//        }
+//    return (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), LSTScreenSize())|| CGSizeEqualToSize(CGSizeMake(812.f, 375.f), LSTScreenSize())  || CGSizeEqualToSize(CGSizeMake(414.f, 896.f), LSTScreenSize()) || CGSizeEqualToSize(CGSizeMake(896.f, 414.f), LSTScreenSize()));
+//    //或者以下方法判断
+    BOOL isPhoneX = NO;
+    if (@available(iOS 11.0, *)) {
+        isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;
+    }
+    return isPhoneX;
 }
 
 /** 状态栏高度 X:44 非X:20 */

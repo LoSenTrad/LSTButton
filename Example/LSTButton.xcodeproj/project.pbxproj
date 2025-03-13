@@ -278,7 +278,7 @@
 				ORGANIZATIONNAME = "490790096@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 9TV887Q275;
+						DevelopmentTeam = ASH85YX4V2;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -514,7 +514,7 @@
 			baseConfigurationReference = 51864B5B6A4F277CC2784076 /* Pods-LSTButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9TV887Q275;
+				DEVELOPMENT_TEAM = ASH85YX4V2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LSTButton/LSTButton-Prefix.pch";
 				INFOPLIST_FILE = "LSTButton/LSTButton-Info.plist";
@@ -531,7 +531,7 @@
 			baseConfigurationReference = C0B52D730CAFA8C4BCAB0339 /* Pods-LSTButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9TV887Q275;
+				DEVELOPMENT_TEAM = ASH85YX4V2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LSTButton/LSTButton-Prefix.pch";
 				INFOPLIST_FILE = "LSTButton/LSTButton-Info.plist";

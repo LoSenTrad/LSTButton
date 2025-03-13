@@ -4,8 +4,7 @@ platform :ios, '8.0'
 target 'LSTButton_Example' do
   pod 'LSTButton', :path => '../'
   pod 'Masonry'
-  pod 'LSTCategory', :path => '/Users/losentrad/Desktop/KitNote/Modularization/LSTKit/LSTCategory/LSTCategory'
-
+  pod 'LSTCategory'
    
   target 'LSTButton_Tests' do
     inherit! :search_paths

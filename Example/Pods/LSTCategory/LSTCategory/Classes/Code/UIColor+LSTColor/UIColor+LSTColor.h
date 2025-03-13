@@ -67,13 +67,6 @@
                                       blue:(NSInteger)blue
                                      alpha:(CGFloat)alpha;
 
-#pragma mark - ***** 常用颜色 *****
-
-/**
-  返回系统cell的分割线的颜色
- */
-+ (nonnull LSTColor *)lst_CellSeparatorColor;
-
 /** 以下为C语言 语法快捷调用颜色设置 **/
 
 /** rbg颜色 */
@@ -85,6 +78,15 @@ UIColor * _Nullable LSTHexColor(NSString * _Nullable hexString);
 /** 十六进制颜色 带alpha */
 UIColor * _Nullable LSTHexColorWithAlpha(NSString * _Nullable hexString,CGFloat alpha);
 
+
+#pragma mark - ***** 常用颜色 *****
+
+/**
+  返回系统cell的分割线的颜色
+ */
++ (nonnull LSTColor *)lst_CellSeparatorColor;
+/** 随机色 */
++ (nonnull LSTColor *)lst_RandomColor;
 
 @end
 

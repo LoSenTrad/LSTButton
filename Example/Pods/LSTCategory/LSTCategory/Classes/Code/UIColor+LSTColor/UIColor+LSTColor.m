@@ -100,20 +100,13 @@
     return value;
 }
 
-#pragma mark - ***** 常用颜色 *****
 
-/**
- 返回系统cell的分割线的颜色
- */
-+ (nonnull LSTColor *)lst_CellSeparatorColor {
-    return [self lst_ColorWithString:@"cccccc" alpha:1];
-}
 
 UIColor * LSTRGBColor(NSInteger r,NSInteger g,NSInteger b) {
-    return [LSTColor colorWithRed:r green:g blue:b alpha:1];
+    return [LSTColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0];
 }
 UIColor * LSTRGBColorWithAlpha(NSInteger r,NSInteger g,NSInteger b,CGFloat alpha) {
-    return [LSTColor colorWithRed:r green:g blue:b alpha:alpha];
+    return [LSTColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:alpha];
 }
 UIColor * LSTHexColor(NSString *hexString) {
     return [LSTColor lst_ColorWithString:hexString];
@@ -121,6 +114,20 @@ UIColor * LSTHexColor(NSString *hexString) {
 
 UIColor * LSTHexColorWithAlpha(NSString *hexString,CGFloat alpha) {
     return [LSTColor lst_ColorWithString:hexString alpha:alpha];
+}
+
+#pragma mark - ***** 常用颜色 *****
+
+/**
+ 返回系统cell的分割线的颜色
+ */
++ (nonnull LSTColor *)lst_CellSeparatorColor {
+    return [self lst_ColorWithString:@"cccccc" alpha:1.0];
+}
+
+/** 随机色 */
++ (nonnull LSTColor *)lst_RandomColor{
+    return [self lst_ColorWith8BitRed:arc4random_uniform(255) green:arc4random_uniform(255) blue:arc4random_uniform(255) alpha:1];
 }
 
 

@@ -201,6 +201,52 @@
     return [NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]];
 }
 
+- (void)timeStampConvert:(LSTStringConvertBlock)block {
+    NSInteger totalSeconds = [self integerValue];
+
+    NSString *hours =  [NSString stringWithFormat:@"%zd", totalSeconds/60/60%24];
+    NSString *minute = [NSString stringWithFormat:@"%zd", (totalSeconds/60)%60];
+    NSString *second = [NSString stringWithFormat:@"%zd", totalSeconds%60];
+    
+//    if (hours.integerValue < 10) {
+//        hours = [NSString stringWithFormat:@"0%@", hours];
+//    }
+//    if (minute.integerValue < 10) {
+//        minute = [NSString stringWithFormat:@"0%@", minute];
+//    }
+//    if (second.integerValue < 10) {
+//        second = [NSString stringWithFormat:@"0%@", second];
+//    }
+    
+    block?block(hours,minute,second):nil;
+    
+}
+
+- (NSString *)dateToTimeStamp {
+//    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+//    [formatter setDateStyle:NSDateFormatterMediumStyle];
+//    [formatter setTimeStyle:NSDateFormatterShortStyle];
+//    [formatter setDateFormat:@"HH:mm:ss"]; //(@"YYYY-MM-dd hh:mm:ss") ----------设置你想要的格式,hh与HH的区别:分别表示12小时制,24小时制
+//    //设置时区选择北京时间
+//    NSTimeZone* timeZone = [NSTimeZone timeZoneWithName:@"Asia/Beijing"];
+//    [formatter setTimeZone:timeZone];
+//    NSDate *date = [formatter dateFromString:self]; //------------将字符串按formatter转成nsdate
+//    //时间转时间戳的方法:
+//    NSInteger timeSp = [[NSNumber numberWithDouble:[date timeIntervalSince1970]] integerValue] * 1000;
+    
+    NSArray *currentArr = [self componentsSeparatedByString:@":"];
+    if (currentArr.count<3) {
+        return @"0";
+    }
+    NSString *h = currentArr.firstObject;
+    NSString *m = currentArr[1];
+    NSString *s = currentArr[2];
+    
+    NSString *res = [NSString stringWithFormat:@"%zd",h.integerValue*3600+m.integerValue*60+s.integerValue];
+    
+    return res;
+}
+
 
 - (nonnull NSURL *)stringToURL {
     return [NSURL URLWithString:self];

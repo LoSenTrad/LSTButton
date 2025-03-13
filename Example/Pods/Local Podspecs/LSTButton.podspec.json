@@ -1,6 +1,6 @@
 {
   "name": "LSTButton",
-  "version": "0.1.12311754",
+  "version": "0.2.07231755",
   "summary": "A short description of LSTButton.",
   "description": "LSTButtonLSTButtonLSTButtonLSTButtonLSTButtonLSTButton",
   "homepage": "https://github.com/LoSenTrad/LSTButton.git",
@@ -13,20 +13,12 @@
   },
   "source": {
     "git": "https://github.com/LoSenTrad/LSTButton.git",
-    "tag": "0.1.12311754"
+    "tag": "0.2.07231755"
   },
   "platforms": {
     "ios": "8.0"
   },
   "default_subspecs": "Code",
-  "dependencies": {
-    "LSTCategory": [
-
-    ],
-    "Masonry": [
-
-    ]
-  },
   "subspecs": [
     {
       "name": "Code",

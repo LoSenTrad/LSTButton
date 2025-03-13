@@ -1,1 +1,1 @@
-../../../../../../../LSTCategory/LSTCategory/LSTCategory/Classes/Code/UIColor+LSTColor/UIColor+LSTColor.h
+../../../LSTCategory/LSTCategory/Classes/Code/UIColor+LSTColor/UIColor+LSTColor.h

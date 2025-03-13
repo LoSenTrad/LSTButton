@@ -15,6 +15,9 @@
 #import "LSTBadgeView.h"
 #import <Masonry.h>
 #import "LSTButton.h"
+#import <LSTCategory/LSTControlEvents.h>
+#import <LSTCategory/LSTGestureEvents.h>
+
 
 @interface LSTImgTextLayoutVC () <UITextFieldDelegate>
 
@@ -59,7 +62,7 @@
     self.btnView.backgroundColor = UIColor.orangeColor;
     self.btnView.image = [UIImage imageNamed:@"123"];
     self.btnView.title = @"LSTButton";
-    self.btnView.imageType = LSTButtonImageTypeLeft;
+    self.btnView.imagePosition = LSTButtonImagePositionLeft;
     [self.view addSubview:self.btnView];
     self.btnView.imageSize = CGSizeMake(30, 30);
     [self.btnView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -73,7 +76,7 @@
 //        NSLog(@"点击了按钮");
 //    }];
     
-    [self.btnView lst_addClickEventBlock:^(id sender) {
+    [self.btnView addEventTouchUpInsideAction:^(id  _Nonnull sender) {
         NSLog(@"点击了按钮");
     }];
 }
@@ -117,17 +120,17 @@
 
 
 - (IBAction)topImage:(UIButton *)sender {
-     self.btnView.imageType = LSTButtonImageTypeTop;
+    self.btnView.imagePosition = LSTButtonImagePositionTop;
     
 }
 - (IBAction)bottomImage:(UIButton *)sender {
-     self.btnView.imageType = LSTButtonImageTypeBottom;
+    self.btnView.imagePosition = LSTButtonImagePositionBottom;
 }
 - (IBAction)leftImage:(UIButton *)sender {
-     self.btnView.imageType = LSTButtonImageTypeLeft;
+    self.btnView.imagePosition = LSTButtonImagePositionLeft;
 }
 - (IBAction)rightImage:(UIButton *)sender {
-     self.btnView.imageType = LSTButtonImageTypeRight;
+    self.btnView.imagePosition = LSTButtonImagePositionRight;
 }
 
 - (IBAction)singleImage:(UIButton *)sender {
@@ -147,7 +150,7 @@
     
     self.btnView.image = [UIImage imageNamed:@"123"];
     self.btnView.title = @"LSTButton";
-    self.btnView.imageType = LSTButtonImageTypeLeft;
+    self.btnView.imagePosition = LSTButtonImagePositionLeft;
     self.btnView.imageSize = CGSizeMake(30, 30);
     [self.btnView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);

@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 
 
+typedef void(^LSTStringConvertBlock)(NSString *hours,NSString *minute,NSString *second);
+
 @interface NSString (LSTString)
 
 NS_ASSUME_NONNULL_BEGIN
@@ -54,6 +56,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)cutString:(NSUInteger)location cutLength:(NSUInteger)length;
 /** 获取当前时间戳 */
 + (nonnull NSString *)getTimeStamp;
+- (void)timeStampConvert:(LSTStringConvertBlock)block;
+/** 11:22:01 转成秒 */
+- (NSString *)dateToTimeStamp;
+
 /** string类型转URL类型 */
 
 - (nonnull NSURL *)stringToURL;
